@@ -42,4 +42,3 @@ def googleSearch():
 	lol = raw_input(""+T+"                                 Website Name :> " + color.END)
 	for url in search(lol, tld='com', lang='es', stop=50):
 		print(""+O+"               Info Sites Found :> "+W+"" + url)
-googleSearch()
