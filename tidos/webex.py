@@ -61,4 +61,3 @@ def webex():
 		print (''+R+'                                                  '+ y + '' + color.END)
 	else:
 		print (''+G+'                                                 [*] Page Exists!' + color.END)
-webex()
