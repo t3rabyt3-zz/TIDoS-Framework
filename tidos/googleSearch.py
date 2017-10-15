@@ -25,17 +25,17 @@ def googleSearch():
 		sys.exit(""+R+"[!] " + color.UNDERLINE + "\033[91m" + "             You are not using a Linux Based OS! Linux is a must-have for this script!" + color.END)
 	print ''
 	print ''
-	print ""+B+"                                    _____   _____ _____  ___  ______  _____  _   _ "
+	print ""+B+"                                 _____   _____ _____  ___  ______  _____  _   _ "
 	time.sleep(0.3)
-	print ""+B+"                                   |  __ \ /  ___|  ___|/ _ \ | ___ \/  __ \| | | |"
+	print ""+B+"                                |  __ \ /  ___|  ___|/ _ \ | ___ \/  __ \| | | |"
 	time.sleep(0.3)
-	print ""+B+"                                   | |  \/ \ `--.| |__ / /_\ \| |_/ /| /  \/| |_| |"
+	print ""+B+"                                | |  \/ \ `--.| |__ / /_\ \| |_/ /| /  \/| |_| |"
 	time.sleep(0.3)
-	print ""+B+"                                   | | __   `--. \  __||  _  ||    / | |    |  _  |"
+	print ""+B+"                                | | __   `--. \  __||  _  ||    / | |    |  _  |"
 	time.sleep(0.3)
-	print ""+B+"                                   | |_\ \ /\__/ / |___| | | || |\ \ | \__/\| | | |"
+	print ""+B+"                                | |_\ \ /\__/ / |___| | | || |\ \ | \__/\| | | |"
 	time.sleep(0.3)
-	print ""+B+"                                    \____/ \____/\____/\_| |_/\_| \_| \____/\_| |_/"
+	print ""+B+"                                 \____/ \____/\____/\_| |_/\_| \_| \____/\_| |_/"
 	print ''
 	print ''
 	time.sleep(0.3)
