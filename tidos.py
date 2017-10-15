@@ -8,7 +8,7 @@ from subprocess import call
 sys.path.append('tidos/')
 from webex import *
 from banner import *
-from searchs import *
+from googleSearch import *
 from pinaxxudos import *
 from info import *
 
@@ -69,7 +69,7 @@ if 'no' in open('agree.txt').read():# take out the treaty/
     print color.BOLD + """
 	TIDoS is a open-source tool developed as a royalty-free website penetration testing tool.
 
-	I was developed by Pinaxx Robinson, known by the name @_tID aka The-Infected-Drake, of Cyber Team Dark Error.
+	I was developed by Pinaxx Robinson, known by the name @_tID aka The-Infected-Drake.
 
 	This is to make you note that I am purely developed for Penetration Testing purposes (WhiteHat in the sense). The developer is not responsible for any damage or data loss due to my misuse. If you intend to use me for any BlackHat purposes, use it at your own risk, coz I am dangerous... ;)
 
