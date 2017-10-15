@@ -47,9 +47,11 @@ def webex():
 	time.sleep(0.3)
 	print ''
 	print ''
-	print ("                                 Remember to give the full URL along with 'https','http' or 'www'")
+	print (""+Y+"                             +========================================================================+")
+	print (""+B+"                                 Remember to give the full URL along with 'https','http' or 'www'")
+	print (""+Y+"                             +========================================================================+")
 	try:
-	    site = raw_input(''+T+'                                       ' + color.UNDERLINE + 'Website :>' + color.END)
+	    site = raw_input(''+T+'                                       Website :> ' + color.END)
 	    urllib2.urlopen(site)
 	except urllib2.HTTPError, e:
 		x=str(e.code)
@@ -60,4 +62,5 @@ def webex():
 		print (''+R+'                                                  Error:' + color.END)
 		print (''+R+'                                                  '+ y + '' + color.END)
 	else:
-		print (''+G+'                                                 [*] Page Exists!' + color.END)
+		print (''+G+'                                             Oh Yeah!!! Page Exists!' + color.END)
+		print (''+Y+'                     +========================================================================+' + color.END)
