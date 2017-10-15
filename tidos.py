@@ -9,7 +9,7 @@ sys.path.append('tidos/')
 from webex import *
 from banner import *
 from googleSearch import *
-from pinaxxudos import *
+from UDoS import *
 from info import *
 
 VersionNum = "1.2" ####### Main for all
@@ -102,9 +102,6 @@ if 'no' in open('agree.txt').read():# take out the treaty/
         sys.exit()
 os.system('clear')
 banner()
-#============================================================#
-#------------------- Onto the real stuff --------------------#
-#============================================================#
 def banner1():
 	print""
 	print color.BLUE + "                             +=============================================+"
@@ -173,7 +170,7 @@ def tidosmain():
                 time.sleep(0.3)
                 print ""+O+"                        +===============================================================+"
             elif main == "fl00d":
-                pinaxxudos()
+                UDoS()
             elif main == "gsearch":
                 googleSearch()
             elif main == "contact":
