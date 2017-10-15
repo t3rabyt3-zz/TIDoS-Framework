@@ -40,7 +40,7 @@ GR = '\033[37m' # gray
 T  = '\033[93m' # tan
 M = '\033[1;35;32m' # magenta
 ###############################
-def pinaxxudos():
+def UDoS():
 	print ""
 	time.sleep(0.1)
 	print ""
