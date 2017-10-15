@@ -47,20 +47,20 @@ def webex():
 	time.sleep(0.3)
 	print ''
 	print ''
-	print (""+O+"            +========================================================================+")
-	print (""+B+"                 Remember to give the full URL along with 'https','http' or 'www'")
-	print (""+O+"            +========================================================================+")
+	print (""+O+"                    +========================================================================+")
+	print (""+B+"                         Remember to give the full URL along with 'https','http' or 'www'")
+	print (""+O+"                    +========================================================================+")
 	try:
-	    site = raw_input(''+T+'                        Website :> ' + color.END)
+	    site = raw_input(''+T+'                                      Website :> ' + color.END)
 	    urllib2.urlopen(site)
 	except urllib2.HTTPError, e:
 		x=str(e.code)
-		print (''+R+'                                            Error:' + color.END)
-		print (''+R+'                                               '+ x + '' + color.END)
+		print (''+R+'                                                Error:' + color.END)
+		print (''+R+'                                                   '+ x + '' + color.END)
 	except urllib2.URLError, e:
 		y=str(e.args)
-		print (''+R+'                                            Error:' + color.END)
-		print (''+R+'                                               '+ y + '' + color.END)
+		print (''+R+'                                                Error:' + color.END)
+		print (''+R+'                                                    '+ y + '' + color.END)
 	else:
-		print (''+G+'                                       Oh Yeah!!! Page Exists!' + color.END)
-		print (''+O+'            +========================================================================+' + color.END)
+		print (''+G+'                                           Oh Yeah!!! Page Exists!' + color.END)
+		print (''+O+'                    +========================================================================+' + color.END)
