@@ -33,34 +33,34 @@ M = '\033[1;35;32m' # magenta
 def webex():
 	print ''    
 	print ''                                                            
-	print ""+color.CYAN+"                             __      ______________________________________  ___"
+	print ""+color.CYAN+color.BOLD+"                             __      ______________________________________  ___"
 	time.sleep(0.3)
-	print ""+color.CYAN+"                            /  \    /  \_   _____/\______   \_   _____/\   \/  /"
+	print ""+color.CYAN+color.BOLD+"                            /  \    /  \_   _____/\______   \_   _____/\   \/  /"
 	time.sleep(0.3)
-	print ""+color.CYAN+"                            \   \/\/   /|    __)_  |    |  _/|    __)_  \     / "
+	print ""+color.CYAN+color.BOLD+"                            \   \/\/   /|    __)_  |    |  _/|    __)_  \     / "
 	time.sleep(0.3)
-	print ""+color.CYAN+"                             \        / |        \ |    |   \|        \ /     \ "
+	print ""+color.CYAN+color.BOLD+"                             \        / |        \ |    |   \|        \ /     \ "
 	time.sleep(0.3)
-	print ""+color.CYAN+"                              \__/\  / /_______  / |______  /_______  //___/\  \ "
+	print ""+color.CYAN+color.BOLD+"                              \__/\  / /_______  / |______  /_______  //___/\  \ "
 	time.sleep(0.3)
-	print ""+color.CYAN+"                                   \/          \/         \/        \/       \_/"
+	print ""+color.CYAN+color.BOLD+"                                   \/          \/         \/        \/       \_/"
 	time.sleep(0.3)
 	print ''
 	print ''
-	print (""+O+"                    +========================================================================+")
-	print (""+B+"                         Remember to give the full URL along with 'https','http' or 'www'")
-	print (""+O+"                    +========================================================================+")
+	print (""+O+color.BOLD+"                    +========================================================================+")
+	print (""+B+color.BOLD+"                         Remember to give the full URL along with 'https','http' or 'www'")
+	print (""+O+color.BOLD+"                    +========================================================================+")
 	try:
-	    site = raw_input(''+T+'                                      Website :> ' + color.END)
+	    site = raw_input(''+T+color.BOLD+'                                      Website :> ' + color.END)
 	    urllib2.urlopen(site)
 	except urllib2.HTTPError, e:
 		x=str(e.code)
-		print (''+R+'                                                Error:' + color.END)
-		print (''+R+'                                                   '+ x + '' + color.END)
+		print (''+R+color.BOLD+'                                                Error:' + color.END)
+		print (''+R+color.BOLD+'                                                   '+ x + '' + color.END)
 	except urllib2.URLError, e:
 		y=str(e.args)
-		print (''+R+'                                                Error:' + color.END)
-		print (''+R+'                                                    '+ y + '' + color.END)
+		print (''+R+color.BOLD+'                                                Error:' + color.END)
+		print (''+R+color.BOLD+'                                                    '+ y + '' + color.END)
 	else:
-		print (''+G+'                                           Oh Yeah!!! Page Exists!' + color.END)
-		print (''+O+'                    +========================================================================+' + color.END)
+		print (''+G+color.BOLD+'                                           Oh Yeah!!! Page Exists!' + color.END)
+		print (''+O+color.BOLD+'                    +========================================================================+' + color.END)
