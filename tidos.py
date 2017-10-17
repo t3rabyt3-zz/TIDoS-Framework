@@ -1,6 +1,6 @@
 # coding: utf-8
 #!/usr/bin/env python
-import sys, platform, subprocess, socket, time, os, urllib, random, string, urllib2, getpass
+import sys, platform, subprocess, socket, time, os, urllib, random, string, urllib2
 from urllib2 import urlopen
 from time import sleep
 from getpass import getpass
@@ -11,8 +11,9 @@ from banner import *
 from googleSearch import *
 from UDoS import *
 from info import *
+from whoischeckup import *
 
-VersionNum = "1.2" ####### Main for all
+VersionNum = "1.4" ####### Main for all
 
 try:
     import scapy
@@ -77,9 +78,9 @@ if 'no' in open('agree.txt').read():# take out the treaty/
 
 	You can edit these scripts within me as per your own needs, provided you use it only for yourself. If u wanna publish me again in a reformed appearance, give the developer some credits...  :)
 """
-    agree = raw_input(''+G+'' + color.UNDERLINE + 'Do you agree to these terms and conditions?>' + color.END)
+    agree = raw_input(''+G+color.BOLD+ 'Do you agree to these terms and conditions? :> ' + color.END)
     if agree == "yes":
-        print (''+G+ 'Awesome !!!' + color.END)
+        print (''+G+ color.BOLD+'Awesome !!!' + color.END)
         time.sleep(3)
         FILE = open("agree.txt","w")# take out the treaty/
         FILE.write('yes')
@@ -91,46 +92,46 @@ if 'no' in open('agree.txt').read():# take out the treaty/
         FILE.write('yes')
         FILE.close()
     elif agree == "Y":
-        print (''+G+ 'Awesome !!!' + color.END)
+        print (''+G+ color.BOLD+'Awesome !!!' + color.END)
         time.sleep(3)
         FILE = open("agree.txt","w")# take out the treaty/
         FILE.write('yes')
         FILE.close()
     else:
-        print (''+R+'[!] You have to agree!' + color.END)
+        print (''+R+color.BOLD+'[!] You have to agree!' + color.END)
         time.sleep(1)
         sys.exit()
 os.system('clear')
 banner()
 def banner1():
 	print""
-	print color.BLUE + "                             +=============================================+"
-	print color.CYAN + "                             | +-----------------------------------------+ |"
-	print color.DARKCYAN + "                             | |   Author: The-Infected-Drake (@_tID)    | |".format(VersionNum)
-	print color.WARNING + "                             | |               Version: {}               | |" 
-	print color.PURPLE + "                             | |      Team  : Dark Error Cyber Team      | |"
-	print color.BLUE + "                             | |         Website Pentesting Tool         | |"
-	print color.YELLOW + "                             | |         Have FUN, stay LEGAL !!!        | |"
-	print color.CYAN + "                             | +-----------------------------------------+ |"
-	print color.BLUE + "                             +=============================================+" + color.END
+	print color.BLUE + color.BOLD+"                             +=============================================+"
+	print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
+	print color.DARKCYAN + color.BOLD+"                             | |   Author: The-Infected-Drake (@_tID)    | |".format(VersionNum)
+	print color.WARNING + color.BOLD+"                             | |               Version: {}               | |" 
+	print color.PURPLE + color.BOLD+"                             | |      Team  : Dark Error Cyber Team      | |"
+	print color.BLUE + color.BOLD+"                             | |         Website Pentesting Tool         | |"
+	print color.YELLOW + color.BOLD+"                             | |         Have FUN, stay LEGAL !!!        | |"
+	print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
+	print color.BLUE + color.BOLD+"                             +=============================================+" + color.END
 
-print color.BLUE + "                             +=============================================+"
+print color.BLUE +color.BOLD+ "                             +=============================================+"
 time.sleep(0.3)
-print color.CYAN + "                             | +-----------------------------------------+ |"
+print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
 time.sleep(0.5)
-print color.DARKCYAN + "                             | |   Author: The-Infected-Drake (@_tID)    | |"
+print color.DARKCYAN + color.BOLD+"                             | |   Author: The-Infected-Drake (@_tID)    | |"
 time.sleep(0.5)
-print color.WARNING + "                             | |               Version: {}              | |".format(VersionNum)
+print color.WARNING + color.BOLD+"                             | |               Version: {}              | |".format(VersionNum)
 time.sleep(0.5)
-print color.PURPLE + "                             | |      Team  : Dark Error Cyber Team      | |"
+print color.PURPLE + color.BOLD+"                             | |      Team  : Dark Error Cyber Team      | |"
 time.sleep(0.5)
-print color.GREEN + "                             | |         Website Pentesting Tool         | |"
+print color.GREEN + color.BOLD+"                             | |         Website Pentesting Tool         | |"
 time.sleep(0.5)
-print color.DARKCYAN + "                             | |         Have FUN, stay LEGAL !!!        | |"
+print color.DARKCYAN + color.BOLD+"                             | |         Have FUN, stay LEGAL !!!        | |"
 time.sleep(0.5)
-print color.CYAN + "                             | +-----------------------------------------+ |"
+print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
 time.sleep(0.3)
-print color.BLUE + "                             +=============================================+" + color.END
+print color.BLUE + color.BOLD+"                             +=============================================+" + color.END
 time.sleep(0.5)
 
 def tidosmain():
@@ -142,97 +143,101 @@ def tidosmain():
             elif main == "webex":
                 webex()
             elif main == "help":
-                print ""+O+"                        +==============================================================+"
-                print ""+C+"                                                   ╦ ╦╔═╗╦  ╔═╗"
-                print ""+C+"                                                   ╠═╣║╣ ║  ╠═╝"
-                print ""+C+"                                                   ╩ ╩╚═╝╩═╝╩  "
-                print ""+O+"                        +==============================================================+"
-                time.sleep(0.3)
-                print ""+C+"                              help "+GR+"- Displays this help message"
-                time.sleep(0.3)
-                print ""+P+"                              banner "+GR+"- Prints a new banner"
-                time.sleep(0.3)                
-                print ""+G+"                              cls "+GR+"- Clears the screen"
-                time.sleep(0.3)
-                print ""+T+"                              info "+GR+"- Displays information about your Network"
-                time.sleep(0.3)
-                print ""+C+"                              piweb "+GR+"- Pings a website"
-                time.sleep(0.3)                
-                print ""+G+"                              webex"+GR+" - Check whether a website exists or not"
-                time.sleep(0.3)
-                print ""+B+"                              gsearch"+GR+" - Search Google about a Website"
-                time.sleep(0.3)
-                print ""+O+"                              fl00d"+GR+" - Flood a website at the UDP level dead"
-                time.sleep(0.3)		
-                print ""+R+"                              exit"+GR+" - Quits this tool "
-                time.sleep(0.3)
-                print ""+M+"                              contact"+GR+" - Contact me for queries :)"
-                time.sleep(0.3)
-                print ""+O+"                        +===============================================================+"
+                print ""+O+color.BOLD+"                      +==============================================================+"
+                print ""+C+color.BOLD+"                                                 ╦ ╦╔═╗╦  ╔═╗"
+                print ""+C+color.BOLD+"                                                 ╠═╣║╣ ║  ╠═╝"
+                print ""+C+color.BOLD+"                                                 ╩ ╩╚═╝╩═╝╩  "
+                print ""+O+color.BOLD+"                      +==============================================================+"
+                time.sleep(0.2)
+                print ""+C+color.BOLD+"                              help "+GR+"- Displays this help message"
+                time.sleep(0.2)
+                print ""+P+color.BOLD+"                              banner "+GR+"- Prints a new banner"
+                time.sleep(0.2)                
+                print ""+G+color.BOLD+"                              cls "+GR+"- Clears the screen"
+                time.sleep(0.2)
+                print ""+T+color.BOLD+"                              info "+GR+"- Displays information about your Network"
+                time.sleep(0.2)
+                print ""+C+color.BOLD+"                              piweb "+GR+"- Pings a website"
+                time.sleep(0.2)                
+                print ""+G+color.BOLD+"                              webex"+GR+" - Check whether a website exists or not"
+                time.sleep(0.2)
+		print ""+T+color.BOLD+"                              whois"+GR+" - Get WHOIS info of a website"
+		time.sleep(0.2)
+                print ""+B+color.BOLD+"                              gsearch"+GR+" - Search Google about a Website"
+                time.sleep(0.2)
+                print ""+O+color.BOLD+"                              fl00d"+GR+" - Flood a website at the UDP level dead"
+                time.sleep(0.2)		
+                print ""+R+color.BOLD+"                              exit"+GR+" - Quits this tool "
+                time.sleep(0.2)
+                print ""+M+color.BOLD+"                              contact"+GR+" - Contact me for queries :)"
+                time.sleep(0.2)
+                print ""+O+color.BOLD+"                     +===============================================================+"
             elif main == "fl00d":
                 UDoS()
+	    elif main == "whois":
+		whoischeckup()
             elif main == "gsearch":
                 googleSearch()
             elif main == "contact":
-                print(''+O+'                   =====================================================================' + color.END)
-                print(''+T+'                                      ╔═╗╔═╗╔╗╔╔╦╗╔═╗╔═╗╔╦╗  ╔╦╗╔═╗')
+                print(''+O+color.BOLD+'                 +====================================================================+' + color.END)
+                print(''+T+color.BOLD+'                                      ╔═╗╔═╗╔╗╔╔╦╗╔═╗╔═╗╔╦╗  ╔╦╗╔═╗')
+                time.sleep(0.1)
+                print(''+T+color.BOLD+'                                      ║  ║ ║║║║ ║ ╠═╣║   ║   ║║║║╣ ')
+                time.sleep(0.1)
+                print(''+T+color.BOLD+'                                      ╚═╝╚═╝╝╚╝ ╩ ╩ ╩╚═╝ ╩   ╩ ╩╚═╝')
+                time.sleep(0.1)
+                print(''+O+color.BOLD+'                 +=====================================================================+' + color.END)
+                print(''+T+color.BOLD+'                          Facebook :>'+GR+'' + color.BOLD + ' https://www.facebook.com/pinaxx.robinson' + color.END)
                 time.sleep(0.3)
-                print(''+T+'                                      ║  ║ ║║║║ ║ ╠═╣║   ║   ║║║║╣ ')
+                print(''+T+color.BOLD+'                          Instagram :>'+GR+'' + color.BOLD + ' @tID - www.instagram.com/the_infected_drake'+color.END)
                 time.sleep(0.3)
-                print(''+T+'                                      ╚═╝╚═╝╝╚╝ ╩ ╩ ╩╚═╝ ╩   ╩ ╩╚═╝')
-                time.sleep(0.3)
-                print(''+O+'                   =====================================================================' + color.END)
-                print(''+T+'                          ' + color.UNDERLINE + 'Facebook :>'+GR+'' + color.BOLD + ' https://www.facebook.com/pinaxx.robinson' + color.END)
-                time.sleep(0.3)
-                print(''+T+'                          ' + color.UNDERLINE + 'Instagram :>'+GR+'' + color.BOLD + ' @tID - www.instagram.com/the_infected_drake' + color.END)
-                time.sleep(0.3)
-                print(''+T+'                          ' + color.UNDERLINE + 'Email me :>'+GR+'' + color.BOLD + ' robinsonpinaxx2000@gmail.com' + color.END)
-                print(''+O+'                   =====================================================================' + color.END)
+                print(''+T+color.BOLD+'                          Email me :>'+GR+'' + color.BOLD + ' robinsonpinaxx2000@gmail.com' + color.END)
+                print(''+O+color.BOLD+'                 +=====================================================================+s' + color.END)
             elif main == "piweb":
                 print(""+C+"                                                                              ")
-                print(""+C+"                                     ____  ____  _    _  ____  ____  ")
-                print(""+C+"                                    (  _ \(_  _)( \/\/ )( ___)(  _ \ ")
-                print(""+C+"                                     )___/ _)(_  )    (  )__)  ) _ < ")
-                print(""+C+"                                    (__)  (____)(__/\__)(____)(____/ ")
+                print(""+C+color.BOLD+"                                     ____  ____  _    _  ____  ____  ")
+                print(""+C+color.BOLD+"                                    (  _ \(_  _)( \/\/ )( ___)(  _ \ ")
+                print(""+C+color.BOLD+"                                     )___/ _)(_  )    (  )__)  ) _ < ")
+                print(""+C+color.BOLD+"                                    (__)  (____)(__/\__)(____)(____/ ")
                 time.sleep (0.3)
                 print(''+O+'                       +=======================================================+' + color.END)
                 print''
                 while True:
-                    hostname = raw_input(''+T+'                                     Website :> ' + color.END)
+                    hostname = raw_input(''+T+color.BOLD+'                                     Website :> ' + color.END)
                     os.system("ping " + hostname)
             elif main == "banner":
-                print (""+C+"                                   ╔╗╔╔═╗╦ ╦  ╔╗ ╔═╗╔╗╔╔╗╔╔═╗╦═╗")
+                print (""+C+color.BOLD+"                                   ╔╗╔╔═╗╦ ╦  ╔╗ ╔═╗╔╗╔╔╗╔╔═╗╦═╗")
                 time.sleep(0.1)
-                print (""+C+"                                   ║║║║╣ ║║║  ╠╩╗╠═╣║║║║║║║╣ ╠╦╝")
+                print (""+C+color.BOLD+"                                   ║║║║╣ ║║║  ╠╩╗╠═╣║║║║║║║╣ ╠╦╝")
                 time.sleep(0.1)
-                print (""+C+"                                   ╝╚╝╚═╝╚╩╝  ╚═╝╩ ╩╝╚╝╝╚╝╚═╝╩╚═")
+                print (""+C+color.BOLD+"                                   ╝╚╝╚═╝╚╩╝  ╚═╝╩ ╩╝╚╝╝╚╝╚═╝╩╚═")
                 time.sleep(0.5)
                 os.system('clear')
                 banner()
                 banner1()
             elif main == "cls":
                 time.sleep(0.1)
-                print (""+C+"                                ╔═╗╦  ╔═╗╔═╗╦═╗  ╔═╗╔═╗╦═╗╔═╗╔═╗╔╗╔")
+                print (""+C+color.BOLD+"                                ╔═╗╦  ╔═╗╔═╗╦═╗  ╔═╗╔═╗╦═╗╔═╗╔═╗╔╗╔")
                 time.sleep(0.1)
-                print (""+C+"                                ║  ║  ║╣ ╠═╣╠╦╝  ╚═╗║  ╠╦╝║╣ ║╣ ║║║")
+                print (""+C+color.BOLD+"                                ║  ║  ║╣ ╠═╣╠╦╝  ╚═╗║  ╠╦╝║╣ ║╣ ║║║")
                 time.sleep(0.1)
                 print (""+C+"                                ╚═╝╩═╝╚═╝╩ ╩╩╚═  ╚═╝╚═╝╩╚═╚═╝╚═╝╝╚╝")
                 time.sleep(0.5)
                 os.system('clear')
             elif main == "exit":
                 print (''+O+'                    ============================================================' + color.END)
-                print (""+C+"                                          ╔═╗ ╦ ╦╦╔╦╗")
+                print (""+C+color.BOLD+"                                          ╔═╗ ╦ ╦╦╔╦╗")
                 time.sleep(0.1)
-                print (""+C+"                                          ║═╬╗║ ║║ ║")
+                print (""+C+color.BOLD+"                                          ║═╬╗║ ║║ ║")
                 time.sleep(0.1) 
-                print (""+C+"                                          ╚═╝╚╚═╝╩ ╩" + color.END)
+                print (""+C+color.BOLD+"                                          ╚═╝╚╚═╝╩ ╩" + color.END)
                 time.sleep(0.1)
                 print(''+O+'                     ============================================================' + color.END)
-                print (""+M+"                                         [*] \033[91m" + "Exiting..." + color.END)
+                print (""+M+color.BOLD+"                                         [*] \033[91m" + "Exiting..." + color.END)
                 time.sleep(0.3)
-                print (""+T+"                                [*] " + "Remember the Infected Drake" + color.END)
+                print (""+GR+color.BOLD+"                                [*] " + "Remember the Infected Drake" + color.END)
                 time.sleep(0.3)
-                print (""+O+"                                        [*] " + "GoodBye... ^_^" + color.END)
+                print (""+O+color.BOLD+"                                        [*] " + "GoodBye... ^_^" + color.END)
                 time.sleep(0.3)
                 print(''+O+'                     ============================================================' + color.END)
                 sys.exit()
