@@ -44,35 +44,35 @@ print "                        ..%%%%...%%..%%..%%%%%%..%%..%%...%%%%.....%%....
 print "                ......................................................................................"
 print "                ......................................................................................"
 print ''
-main = raw_input (''+T+'		Is there something wrong with me? (yes/no)  :( >  ' +color.END)
+main = raw_input (''+T+color.BOLD+'		               Is there something wrong with me? (yes/no)  :( >  ' +color.END)
 if main == "no":
-    print (''+O+ '		Then why do you wanna uninstall me? :( Contact my developer if u require help...' +color.END)
-    ohno = raw_input (''+T+ '		Do you really want to get rid of me? (yes/no) :( > ' + color.END)
+    print (''+O+ color.BOLD+'		Then why do you wanna uninstall me? :( Contact my developer if u require help...' +color.END)
+    ohno = raw_input (''+T+ color.BOLD+'		Do you really want to get rid of me? (yes/no) :( > ' + color.END)
     if ohno == "yes":
-         print (''+C+ '		   	 Uninstalling ... '+ color.END) 
+         print (''+C+ color.BOLD+'		   	 Uninstalling ... '+ color.END) 
          time.sleep(3)
          try:
             shutil.rmtree('/opt/tidos')
             os.remove('/usr/bin/tidos')
-            print (''+R+ '		   Okay I am gone :) No more to trouble you :D' + color.END)
+            print (''+R+ color.BOLD+'		   Okay I am gone :) No more to trouble you :D' + color.END)
          except:
-            print (color.FAIL + '	 TIDoS is already uninstalled or not yet installed! LOL!!! What u gonna uninstall? Dumbhead :p ' + color.END)
+            print (color.FAIL + color.BOLD+'	 TIDoS is already uninstalled or not yet installed! LOL!!! What u gonna uninstall? Dumbhead :p ' + color.END)
             sys.exit()
     else:
 	    print (''+G+ '			Okay! Relax I am is still there' + color.END)
 	    sys.exit()
 elif main == "yes":
-    print (''+G+ '		Please contact my developer to report the faults :)' + color.END)
-    print (''+C+ '		    Uninstalling ... '+ color.END)
+    print (''+G+ color.BOLD+'		    Please contact my developer to report the faults :)' + color.END)
+    print (''+C+ color.BOLD+'		                Uninstalling ... '+ color.END)
     time.sleep (3)
     try:
          shutil.rmtree('/opt/tidos')
          os.remove('/usr/bin/tidos')
-         print (''+T+ '		   	Okay I am gone :) No more to trouble you :D' + color.END)
+         print (''+T+ color.BOLD+'		   	Okay I am gone :) No more to trouble you :D' + color.END)
     except:
-         print (color.FAIL + '	    TIDoS is already uninstalled or not yet installed! LoL!!! What u gonna uninstall ? Dumbhead :p ' + color.END)
+         print (color.FAIL + color.BOLD+'	    TIDoS is already uninstalled or not yet installed! LoL!!! What u gonna uninstall ? Dumbhead :p ' + color.END)
          sys.exit()
 else:
-   print (''+T+'		Your machine ran in ERRORS !!! Hence contact Dark ErroR team :)  ')
+   print (''+T+color.BOLD+'		Your machine ran in ERRORS !!! Hence contact Dark ErroR team :)  ')
    sys.exit()
 
