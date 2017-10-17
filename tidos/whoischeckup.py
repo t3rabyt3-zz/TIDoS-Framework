@@ -1,7 +1,6 @@
 import pythonwhois
-import urllib, urllib2, bs4, requests, time
+import urllib, urllib2, requests, time
 from time import sleep
-from bs4 import BeautifulSoup as BS
 class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
