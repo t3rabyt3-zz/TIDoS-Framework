@@ -30,8 +30,6 @@
 	  
 	  5. Once into the module tool, type 'help' for the commands list.
 ------------------------------------------------------------------------------------
-     If your gonna use some of my source, please ask me and give credits pls :)
-------------------------------------------------------------------------------------
                        You will need:
                            - An Internet connection
                            - A Website as your target    
