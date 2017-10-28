@@ -1,4 +1,5 @@
-import pythonwhois
+# coding: utf-8
+#!/usr/bin/env python
 import urllib, urllib2, requests, time
 from time import sleep
 class color:
@@ -38,15 +39,18 @@ def whoischeckup():
     print ""                                                                  
     print ""+P+color.BOLD+"                      +======================================================+"
     time.sleep(0.1)
-    print(''+C+color.BOLD+'                            Enter website address for the WHOIS check up')
+    print(''+B+color.BOLD+'                            Enter website address for the WHOIS check up')
     time.sleep(0.1)
     print(''+P+color.BOLD+'                      +======================================================+')
     h = raw_input(''+ T + color.BOLD + '                                 Website :> ' + color.END)
     time.sleep(0.4)
     print('' + GR + color.BOLD + '                                    Scanning begins...')
-    print(""+ color.YELLOW + color.BOLD + "\n                               [~] Whois Lookup Result: \n" + color.END)
+    print(""+ GR + color.BOLD + "                                [~] Result: "+color.YELLOW+color.BOLD+"════════════════╗" + color.END)
+    print(""+ color.YELLOW + color.BOLD + "     ╔══════════════════════════════════════════════════════╝")            
+    print(""+ color.YELLOW + color.BOLD + "     ║")
+    print(""+ color.YELLOW + color.BOLD + "     ▽")
     domains = [h]
     for dom in domains:
         text = requests.get('http://api.hackertarget.com/whois/?q=' + dom).text
 	resultwhois = str(text)
-	print(""+G+ color.BOLD + "                             " + resultwhois)
+	print(""+G+ color.BOLD + resultwhois)
