@@ -228,49 +228,49 @@ def tidosmain():
                 print ""+O+color.BOLD+"                      +================================================================+"
                 time.sleep(0.2)
                 print ""+C+color.BOLD+"                          [1] help "+GR+"- Displays this help message"
-                time.sleep(0.2)
+                time.sleep(0.05)
                 print ""+P+color.BOLD+"                          [2] banner "+GR+"- Prints a new banner"
-                time.sleep(0.2)                
+                time.sleep(0.05)                
                 print ""+G+color.BOLD+"                          [3] cls "+GR+"- Clears the screen"
-                time.sleep(0.2)
+                time.sleep(0.05)
                 print ""+T+color.BOLD+"                          [4] info "+GR+"- Displays information about your Network"
-                time.sleep(0.2)
+                time.sleep(0.05)
                 print ""+C+color.BOLD+"                          [5] piweb "+GR+"- Pings a website"
-                time.sleep(0.2)
+                time.sleep(0.205)
 		print ""+R+color.BOLD+"                          [6] nping"+GR+" - Perform a nPing(NMap-Ping) on a Website"
-		time.sleep(0.2)             
+		time.sleep(0.05)             
                 print ""+T+color.BOLD+"                          [7] webex"+GR+" - Check whether a website exists or not"
-                time.sleep(0.2)
+                time.sleep(0.05)
 		print ""+M+color.BOLD+"                          [8] grabhead"+GR+" - Grabs the HTTP Headers of a Website"
-		time.sleep(0.2)
+		time.sleep(0.05)
 		print ""+B+color.BOLD+"                          [9[ trace"+GR+" - Use MTR for Advanced TraceRoute of Web"
-		time.sleep(0.2)
+		time.sleep(0.05)
 		print ""+T+color.BOLD+"                          [10] whois"+GR+" - Get WHOIS info of a website"
-		time.sleep(0.2)
+		time.sleep(0.05)
 		print ""+P+color.BOLD+"                          [11] revip"+GR+" - Do a Reverse IP LookUP of a Website"
-		time.sleep(0.2)
+		time.sleep(0.05)
 		print ""+M+color.BOLD+"                          [13] revdns"+GR+" - Does a Reverse DNS LookUP of Website"
-		time.sleep(0.2)
+		time.sleep(0.05)
 		print ""+R+color.BOLD+"                          [12] geoip"+GR+" - Does a GeoIP Lookup of the website"
-		time.sleep(0.2)
+		time.sleep(0.05)
 		print ""+C+color.BOLD+"                          [13] subdom"+GR+" - Launches the Sub-Domain scanner"
-		time.sleep(0.2)
+		time.sleep(0.05)
 		print ""+G+color.BOLD+"                          [14] subnet"+GR+" - Does a SubNet Scan of a Website"
-		time.sleep(0.2)
+		time.sleep(0.05)
 		print ""+P+color.BOLD+"                          [15] dnschk"+GR+" - Starts up a DNS LookUP of a Website"
-		time.sleep(0.2)
+		time.sleep(0.05)
                 print ""+B+color.BOLD+"                          [16] gsearch"+GR+" - Search Google about a Website"
-                time.sleep(0.2)
+                time.sleep(0.05)
 		print ""+C+color.BOLD+"                          [17] pglink"+GR+" - Dumps a list of the links with Website"
-		time.sleep(0.2)
+		time.sleep(0.05)
 		print ""+G+color.BOLD+"                          [18] nmap"+GR+" - Shoots up NMap Port Scan on a Website" 
-		time.sleep(0.2)
+		time.sleep(0.05)
                 print ""+O+color.BOLD+"                          [19] fl00d"+GR+" - Flood a website at the UDP level dead"
-                time.sleep(0.2)		
+                time.sleep(0.05)		
                 print ""+R+color.BOLD+"                          [20] exit"+GR+" - Quits this tool "
-                time.sleep(0.2)
+                time.sleep(0.05)
                 print ""+M+color.BOLD+"                          [21] contact"+GR+" - Contact me for queries :)"
-                time.sleep(0.2)
+                time.sleep(0.05)
                 print ""+O+color.BOLD+"                     +=================================================================+"
             elif main == "fl00d":
 		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
