@@ -32,20 +32,14 @@ M = '\033[1;35;32m' # magenta
 ###################################
 def webex():
 	print ''    
-	print ''                                                            
-	print ""+color.CYAN+color.BOLD+"                             __      ______________________________________  ___"
+	print ""+color.CYAN+color.BOLD+"                                    Yb        dP 888888 88''Yb 888888 Yb  dP " 
+	time.sleep(0.1)
+	print ""+color.CYAN+color.BOLD+"                                     Yb  db  dP  88__   88__dP 88__    YbdP  "
+	time.sleep(0.1)
+	print ""+color.CYAN+color.BOLD+"                                      YbdPYbdP   88''   88''Yb 88''    dPYb  "
+	time.sleep(0.1)
+	print ""+color.CYAN+color.BOLD+"                                       YP  YP    888888 88oodP 888888 dP  Y8 "
 	time.sleep(0.3)
-	print ""+color.CYAN+color.BOLD+"                            /  \    /  \_   _____/\______   \_   _____/\   \/  /"
-	time.sleep(0.3)
-	print ""+color.CYAN+color.BOLD+"                            \   \/\/   /|    __)_  |    |  _/|    __)_  \     / "
-	time.sleep(0.3)
-	print ""+color.CYAN+color.BOLD+"                             \        / |        \ |    |   \|        \ /     \ "
-	time.sleep(0.3)
-	print ""+color.CYAN+color.BOLD+"                              \__/\  / /_______  / |______  /_______  //___/\  \ "
-	time.sleep(0.3)
-	print ""+color.CYAN+color.BOLD+"                                   \/          \/         \/        \/       \_/"
-	time.sleep(0.3)
-	print ''
 	print ''
 	print (""+O+color.BOLD+"                    +========================================================================+")
 	print (""+B+color.BOLD+"                         Remember to give the full URL along with 'https','http' or 'www'")
