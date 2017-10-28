@@ -11,11 +11,12 @@
                                        **ReadMe**
 ------------------------------------------------------------------------------------
                                 Name: Trity v2.0
-               Author:Pinaxx Robinson  aka @_tID aka the-Infected-Drake
-       Contact Info: @tID on Instagram or pinaxxrobinson2000@gmail.com on Gmail
-	             or https://www.facebook.com/pinaxx.robinson/
+               Author: Pinaxx Robinson  aka @_tID aka the-Infected-Drake
+	          Tool Info: A Comprehensive Web-Penetration Toolkit 
+      Contact Info: @tID on Instagram or pinaxxrobinson2000@gmail.com on Gmail
+	          or https://www.facebook.com/pinaxx.robinson/
 ------------------------------------------------------------------------------------
-                       :  HOW TO INSTALL AND USE THIS TOOL :-
+                       -:  HOW TO INSTALL AND USE THIS TOOL :-
 	  1. Open up your terminal and make a clone of the repository
 	  git clone https://github.com/the-Infected-Drake/TIDoS-Framework.git
 	  
