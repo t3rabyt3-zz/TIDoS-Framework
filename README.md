@@ -8,19 +8,26 @@
                    \__|   (__\_|_)(________/   \"_____/  (_______/   
                                                         
 ------------------------------------------------------------------------------------
-#                                       ReadMe
+                                       **ReadMe**
 ------------------------------------------------------------------------------------
-#                                Name: Trity v2.0
+                                Name: Trity v2.0
                Author:Pinaxx Robinson  aka @_tID aka the-Infected-Drake
        Contact Info: @tID on Instagram or pinaxxrobinson2000@gmail.com on Gmail
 	             or https://www.facebook.com/pinaxx.robinson/
 ------------------------------------------------------------------------------------
-Don't try to change any of the files. If something screws up then uninstall it and
-               again reinstall it. Still not working? contact me... :)
-------------------------------------------------------------------------------------
-Bugs, problems or anything I should know of? Let me know and direct message me on instagram
-                    at @tID. (Check out contact me section)
-   If errors occur, try restarting TIDoS. Still not working? Contact me above. ^_^
+                       :  HOW TO INSTALL AND USE THIS TOOL :-
+	  1. Open up your terminal and make a clone of the repository
+	  git clone https://github.com/the-Infected-Drake/TIDoS-Framework.git
+	  
+	  2. Navigate to the directory and list all the files. You will see 
+	                 setup.py dependency installation file
+	  
+	  3. Run the setup.py.
+	                        python setup.py
+				
+	  4. Follow the on screen instructions.
+	  
+	  5. Once into the module tool, type 'help' for the commands list.
 ------------------------------------------------------------------------------------
      If your gonna use some of my source, please ask me and give credits pls :)
 ------------------------------------------------------------------------------------
