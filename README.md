@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------
                                        **ReadMe**
 ------------------------------------------------------------------------------------
-                                Name: Trity v2.0
+                                Name: TIDoS v2.0
                Author: Pinaxx Robinson  aka @_tID aka the-Infected-Drake
 	          Tool Info: A Comprehensive Web-Penetration Toolkit 
       Contact Info: @tID on Instagram or pinaxxrobinson2000@gmail.com on Gmail
