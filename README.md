@@ -16,13 +16,13 @@
 ------------------------------------------------------------------------------------
                        -:  HOW TO INSTALL AND USE THIS TOOL :-
 	  1. Open up your terminal and make a clone of the repository
-	  git clone https://github.com/the-Infected-Drake/TIDoS-Framework.git
+	      git clone https://github.com/the-Infected-Drake/TIDoS-Framework.git
 	  
 	  2. Navigate to the directory and list all the files. You will see 
 	                 setup.py dependency installation file
 	  
 	  3. Run the setup.py.
-	                        python setup.py
+	      python setup.py
 				
 	  4. Follow the on screen instructions.
 	  
