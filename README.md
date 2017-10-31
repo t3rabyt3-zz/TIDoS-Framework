@@ -27,6 +27,9 @@
 	  4. Follow the on screen instructions.
 	  
 	  5. Once into the module tool, type 'help' for the commands list.
+	  
+	  6. To uninstall just run the uninstall.py file
+	       python uninstall.py
 ------------------------------------------------------------------------------------
                        You will need:
                            - An Internet connection
