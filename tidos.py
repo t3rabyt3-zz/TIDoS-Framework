@@ -78,7 +78,7 @@ if str(platform.system()) != "Linux":
     sys.exit(""+R+"[!] " + color.UNDERLINE + "\033[91m" + "             You are not using a Linux Based OS! Linux is a must-have for this script!" + color.END)
 if not os.geteuid() == 0:
     sys.exit(""+R+"[!] " + color.UNDERLINE + "\033[91m" + "                           Must be run as root. :) " + color.END)
-if 'no' in open('agree.txt').read():# take out the treaty/
+if 'no' in open('agree.txt').read():
     print color.BOLD + """
 	TIDoS is a open-source tool developed as a royalty-free website penetration testing tool.
 
@@ -120,8 +120,7 @@ def banner1():
 	print color.BLUE + color.BOLD+"                             +=============================================+"
 	print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
 	print color.DARKCYAN + color.BOLD+"                             | |   Author: The-Infected-Drake (@_tID)    | |"
-	print color.WARNING + color.BOLD+"                             | |               Version: 2.0              | |" 
-	print color.PURPLE + color.BOLD+"                             | |      Team  : Dark Error Cyber Team      | |"
+	print color.WARNING + color.BOLD+"                             | |               Version: 2.0              | |"
 	print color.BLUE + color.BOLD+"                             | |         Website Pentesting Tool         | |"
 	print color.YELLOW + color.BOLD+"                             | |            1 Tool -> 21 choices         | |"
 	print color.YELLOW + color.BOLD+"                             | |       Test the PEN, stay LEGAL !!!      | |"
@@ -135,8 +134,6 @@ time.sleep(0.5)
 print color.DARKCYAN + color.BOLD+"                             | |   Author: The-Infected-Drake (@_tID)    | |"
 time.sleep(0.5)
 print color.WARNING + color.BOLD+"                             | |               Version: 2.0              | |"
-time.sleep(0.5)
-print color.PURPLE + color.BOLD+"                             | |      Team  : Dark Error Cyber Team      | |"
 time.sleep(0.5)
 print color.GREEN + color.BOLD+"                             | |         Website Pentesting Tool         | |"
 time.sleep(0.5)
