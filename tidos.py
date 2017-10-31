@@ -154,70 +154,70 @@ def tidosmain():
         try:
             main = raw_input(''+M+'                                    ' + color.BOLD + 'TID :>  ' + color.END)
             if main == "info":
-		print ""+O+color.BOLD+"                       Collecting info about your network..."
+		print ""+O+color.BOLD+"                    [!] Collecting info about your network..."
 		time.sleep(0.5)
-		print ""+G+color.BOLD+"                    Info collected... Preparing results..."+color.END
+		print ""+G+color.BOLD+"                    [*] Info collected... Preparing results..."+color.END
 		time.sleep(1)         
                 info()
 	    elif main == "geoip":
 		time.sleep(0.5)
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
-		time.sleep(0.4)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		geoIP()
             elif main == "webex":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
                 webex()
 	    elif main == "subdom":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		subdom()
 	    elif main == "grabhead":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		grabhead()
 	    elif main == "subnet":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		subnet()
 	    elif main == "dnschk":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		dnschk()
 	    elif main == "nmap":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		nmap()
 	    elif main == "pglink":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		links()
 	    elif main == "nping":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		nping()
 	    elif main == "revip":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		revip()
             elif main == "help":
@@ -243,7 +243,7 @@ def tidosmain():
                 time.sleep(0.05)
 		print ""+M+color.BOLD+"                          [8] grabhead"+GR+" - Grabs the HTTP Headers of a Website"
 		time.sleep(0.05)
-		print ""+B+color.BOLD+"                          [9[ trace"+GR+" - Use MTR for Advanced TraceRoute of Web"
+		print ""+B+color.BOLD+"                          [9] trace"+GR+" - Use MTR for Advanced TraceRoute of Web"
 		time.sleep(0.05)
 		print ""+T+color.BOLD+"                          [10] whois"+GR+" - Get WHOIS info of a website"
 		time.sleep(0.05)
@@ -273,33 +273,33 @@ def tidosmain():
                 time.sleep(0.05)
                 print ""+O+color.BOLD+"                     +=================================================================+"
             elif main == "fl00d":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
                 UDoS()
 	    elif main == "whois":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		whoischeckup()
 	    elif main == "trace":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		trcrt()
             elif main == "gsearch":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
                 googleSearch()
 	    elif main == "revdns":
-		print ""+P+color.BOLD+"                      Preparing scripts about the info you requested..."+color.END
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
-		print ""+G+color.BOLD+"                        Launching module..."+color.END
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		revdns()
             elif main == "contact":
