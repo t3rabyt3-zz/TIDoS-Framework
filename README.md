@@ -1,38 +1,40 @@
+<p align="middle"><img src='https://i.imgur.com/jqIT7UB.png' /></p>                    
 
-               ___________  __     ________      ______    ________  
-              ("     _   ")|" \   |"      "\    /    " \  /"       ) 
-               )__/  \\__/ ||  |  (.  ___  :)  // ____  \(:   \___/  
-                  \\_ /    |:  |  |: \   ) || /  /    ) :)\___  \    
-                  |.  |    |.  |  (| (___\ ||(: (____/ //  __/  \\   
-                  \:  |    /\  |\ |:       :) \        /  /" \   :)  
-                   \__|   (__\_|_)(________/   \"_____/  (_______/   
-                                                        
-------------------------------------------------------------------------------------
-                                       **README**
-------------------------------------------------------------------------------------
-                                Name: TIDoS v2.0
-                      Author: @_tID aka the-Infected-Drake
-	          Tool Info: A Comprehensive Web-Penetration Toolkit 
-------------------------------------------------------------------------------------
-                       -:  HOW TO INSTALL AND USE THIS TOOL :-
-	  1. Open up your terminal and make a clone of the repository
-	      git clone https://github.com/the-Infected-Drake/TIDoS-Framework.git
-	  
-	  2. Navigate to the directory and list all the files. You will see 
-	                 setup.py dependency installation file
-	  
-	  3. Run the setup.py.
-	      python setup.py
-				
-	  4. Follow the on screen instructions.
-	  
-	  5. Once into the module tool, type 'help' for the commands list.
-	  
-	  6. To uninstall just run the uninstall.py file
-	       python uninstall.py
-------------------------------------------------------------------------------------
-                       You will need:
-                           - An Internet connection
-                           - A Website as your target    
-                           - Linux is a must-have
-------------------------------------------------------------------------------------
+# TIDoS-Framework
+TIDoS-Framework is a python toolkit for comprehensive penetration testing of websites. Check out if your website is vulnerable ;)
+
+A list of features TIDoS-Framework has to offer:
+
+- [x] Has capabilities of effective Reconnaissance about a website.
+- [x] Can perform many tasks with just the domain of the website.
+- [x] Some of them include Reverse-DNS, Reverse-IP LookUp of the website.
+- [x] Can check the connectivity strength of your website by flooding it at the UDP level.
+- [x] All the scripts are easily orderly arranged in a separate folder.
+- [x] Its written mostly using pre-defined APIs so results are pretty accurate.
+- [x] Suited specially for complete reconnaisance of the website.
+
+<img src='https://i.imgur.com/uWWCfw2.png' />
+
+### Installing TIDoS-Framework :-
+Use the following command to clone it
+```
+git clone https://github.com/the-Infected-Drake/TIDoS-Framework.git
+```
+After downloading, navigate to 'TIDoS-Framework' directory with the following command
+```
+cd TIDoS-Framework
+```
+Now install the required dependencies with the following command
+```
+python setup.py
+```
+<img src='https://i.imgur.com/wOrYfVc.png' />
+
+Now you are good to go! Run TIDoS with the following command
+```
+tidos
+```
+### Using TIDoS-Framework :-
+You can enter <b>help</b> in TIDoS's target prompt for keyword usages.
+Example - "revdns" for 'Reverse DNS LookUP of the website'.
+	- "geoip" for 'geoIP LookUp of the website'.
