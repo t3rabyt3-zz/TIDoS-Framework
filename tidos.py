@@ -29,9 +29,7 @@ VersionNum = "2.0"
 try:
     import scapy
     import pip
-    import google
     import requests
-    import argparse
 except ImportError as e:
     print (color.UNDERLINE + "\033[91m" + "You don't have some modules installed! \nPlease run setup.py to install this tool fully! " + color.END)
     print "Error: {}".format(e)
@@ -42,7 +40,7 @@ except ImportError as e:
         os.system("easy_install pip")
     elif (e) == "Unable to locate package lib32ncurses5":
         os.system("sudo apt-get update")
-        os.system("sudo apt-get install lib32ncurses5 lib32bz2-1.0")
+        os.system("sudo apt-get install lib32ncurses5")
     sys.exit()
 ###############################
 class color:
@@ -113,6 +111,9 @@ if 'no' in open('agree.txt').read():
         print (''+R+color.BOLD+'[!] You have to agree!' + color.END)
         time.sleep(1)
         sys.exit()
+##############################################
+#               Actual stuff                 #
+##############################################
 os.system('clear')
 banner()
 def banner1():
@@ -146,7 +147,7 @@ time.sleep(0.3)
 print color.BLUE + color.BOLD+"                             +=============================================+" + color.END
 time.sleep(0.5)
 
-def tidosmain():
+def thetidosmain():
     while True:
         try:
             main = raw_input(''+M+'                                    ' + color.BOLD + 'TID :>  ' + color.END)
@@ -404,5 +405,5 @@ def tidosmain():
                 print (""+R+"                              [!] " + color.UNDERLINE + "\033[91m" + "That is not an option! Type 'help'" + color.END)
         except KeyboardInterrupt:
                 print (""+R+"                             [!] " + color.UNDERLINE + "\033[91m" + " Use 'exit' to close the tool!" + color.END)
-                tidosmain()
-tidosmain()
+                thetidosmain()
+thetidosmain()
