@@ -35,5 +35,6 @@ Now you are good to go! Run TIDoS with the following command
 tidos
 ```
 ### Using TIDoS-Framework :-
-You can enter <b>help</b> in TIDoS's target prompt for keyword usages.Example - "revdns" for 'Reverse DNS LookUP of the website'.
+You can enter <b>help</b> in TIDoS's target prompt for keyword usages. 
+Example- "revdns" for 'Reverse DNS LookUP if the website'.
 	- "geoip" for 'geoIP LookUp of the website'.
