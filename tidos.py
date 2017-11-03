@@ -120,9 +120,9 @@ def banner1():
 	print color.BLUE + color.BOLD+"                             +=============================================+"
 	print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
 	print color.DARKCYAN + color.BOLD+"                             | |   Author: The-Infected-Drake (@_tID)    | |"
-	print color.WARNING + color.BOLD+"                             | |               Version: 2.0              | |"
+	print color.GREEN + color.BOLD+"                             | |               Version: 2.0              | |"
 	print color.BLUE + color.BOLD+"                             | |         Website Pentesting Tool         | |"
-	print color.YELLOW + color.BOLD+"                             | |            1 Tool -> 21 choices         | |"
+	print color.RED + color.BOLD+"                             | |            1 Tool -> 21 choices         | |"
 	print color.YELLOW + color.BOLD+"                             | |       Test the PEN, stay LEGAL !!!      | |"
 	print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
 	print color.BLUE + color.BOLD+"                             +=============================================+" + color.END
@@ -133,13 +133,13 @@ print color.CYAN + color.BOLD+"                             | +-----------------
 time.sleep(0.5)
 print color.DARKCYAN + color.BOLD+"                             | |   Author: The-Infected-Drake (@_tID)    | |"
 time.sleep(0.5)
-print color.WARNING + color.BOLD+"                             | |               Version: 2.0              | |"
+print color.GREEN + color.BOLD+"                             | |               Version: 2.0              | |"
 time.sleep(0.5)
-print color.GREEN + color.BOLD+"                             | |         Website Pentesting Tool         | |"
+print color.BLUE + color.BOLD+"                             | |         Website Pentesting Tool         | |"
 time.sleep(0.5)
-print color.YELLOW + color.BOLD+"                             | |            1 Tool -> 21 choices         | |"
+print color.RED + color.BOLD+"                             | |            1 Tool -> 21 choices         | |"
 time.sleep(0.5)
-print color.DARKCYAN + color.BOLD+"                             | |       Test the PEN, stay LEGAL !!!      | |"
+print color.YELLOW + color.BOLD+"                             | |       Test the PEN, stay LEGAL !!!      | |"
 time.sleep(0.5)
 print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
 time.sleep(0.3)
@@ -158,61 +158,61 @@ def tidosmain():
                 info()
 	    elif main == "geoip":
 		time.sleep(0.5)
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		geoIP()
             elif main == "webex":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
                 webex()
 	    elif main == "subdom":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		subdom()
 	    elif main == "grabhead":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		grabhead()
 	    elif main == "subnet":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		subnet()
 	    elif main == "dnschk":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		dnschk()
 	    elif main == "nmap":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		nmap()
 	    elif main == "pglink":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		links()
 	    elif main == "nping":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		nping()
 	    elif main == "revip":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
@@ -270,31 +270,31 @@ def tidosmain():
                 time.sleep(0.05)
                 print ""+O+color.BOLD+"                     +=================================================================+"
             elif main == "fl00d":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
                 UDoS()
 	    elif main == "whois":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		whoischeckup()
 	    elif main == "trace":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
 		trcrt()
             elif main == "gsearch":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
                 googleSearch()
 	    elif main == "revdns":
-		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
@@ -315,6 +315,10 @@ def tidosmain():
                 print(''+T+color.BOLD+'                          Email me :>'+GR+'' + color.BOLD + ' robinsonpinaxx2000@gmail.com' + color.END)
                 print(''+O+color.BOLD+'                 +=====================================================================+' + color.END)
             elif main == "piweb":
+		print ""+O+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
                 piweb()
             elif main == "banner":
                 print (""+C+color.BOLD+"                                   ╔╗╔╔═╗╦ ╦  ╔╗ ╔═╗╔╗╔╔╗╔╔═╗╦═╗")
