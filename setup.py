@@ -110,8 +110,8 @@ if option == "1":
     install2 = os.system("cp -R tidos/ /opt/ && cp tidos.py /opt/tidos && cp runon.sh /opt/tidos && cp runon.sh /usr/bin/tidos && chmod +x /usr/bin/tidos")
     os.system('apt-get install libncurses5')
     pip.main(["install", "scapy", "requests", "google"])
-    print color.BOLD+color.CYAN+"  \033[1;94m[!] SetUP Successfull ! Execute 'tidos' now to launch the tool [!]"+color.END
+    print color.BOLD+color.+"  \033[1;94m[!] SetUP Successfull ! Execute 'tidos' now to launch the tool [!]"+color.END
     sys.exit()
 else:
-    print "Whoops! Something went wrong! Try again KID..."
+    print ""+M+color.BOLD+"Whoops! Something went wrong! Try again KID..."+color.END
     sys.exit()
