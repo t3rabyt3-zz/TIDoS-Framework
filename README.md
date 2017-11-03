@@ -35,6 +35,10 @@ Now you are good to go! Run TIDoS with the following command
 tidos
 ```
 ### Using TIDoS-Framework :-
-You can enter <b>help</b> in TIDoS's target prompt for keyword usages. Also you can refer to the [official documentary](http://thetidosframework.webnode.com/projects) of TIDoS-Framework for the full instructions.
+You can enter <b>help</b> in TIDoS's target prompt for keyword usages.
 
 Example - "revdns" for 'Reverse DNS LookUP if the website'.
+
+<img src='https://i.imgur.com/BDTFsw8.png' />
+
+ Also you can refer to the [official documentary](http://thetidosframework.webnode.com/projects) of TIDoS-Framework for the full instructions.
