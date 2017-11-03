@@ -38,7 +38,3 @@ tidos
 You can enter <b>help</b> in TIDoS's target prompt for keyword usages. Also you can refer to the [official documentary](http://thetidosframework.webnode.com/projects) of TIDoS-Framework for the full instructions.
 
 Example - "revdns" for 'Reverse DNS LookUP if the website'.
-          "geoip" for 'geoIP LookUp of the website'.
-          "gsearch" for 'Searching Google about a website.
-
-	
