@@ -5,13 +5,11 @@ TIDoS-Framework is a python toolkit for comprehensive penetration testing of web
 
 A list of features TIDoS-Framework has to offer:
 
-- [x] Has capabilities of effective Reconnaissance about a website.
-- [x] Can perform many tasks with just the domain of the website.
-- [x] Some of them include Reverse-DNS, Reverse-IP LookUp of the website.
+- [x] Has capabilities of effective Reconnaissance about a website with just its domain.
+- [x] FootPrinting solutions include Reverse-DNS, Reverse-IP LookUp of the website.
 - [x] Can check the connectivity strength of your website by flooding it at the UDP level.
-- [x] All the scripts are easily orderly arranged in a separate folder.
 - [x] Its written mostly using pre-defined APIs so results are pretty accurate.
-- [x] Suited specially for complete reconnaisance of the website.
+- [x] Work is presently on this, I will update the resources as soon everything is pretty complete. :)
 
 <img src='https://i.imgur.com/uWWCfw2.png' />
 
