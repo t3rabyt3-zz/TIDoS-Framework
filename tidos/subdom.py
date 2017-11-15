@@ -37,11 +37,11 @@ def subdom():
     time.sleep(0.1)
     print color.CYAN+color.BOLD+"                                    \/          \/        \/             \/ "
     print ""                                                                  
-    print color.PURPLE+color.BOLD+"                      +======================================================+"
+    print ""+GR+color.BOLD+"                      +======================================================+"
     time.sleep(0.1)
     print(''+B+color.BOLD+'                            Enter website address for the Sub-DOMAIN Scan')
     time.sleep(0.1)
-    print(''+P+color.BOLD+'                      +======================================================+')
+    print(''+GR+color.BOLD+'                      +======================================================+')
     h = raw_input(''+ T + color.BOLD + '                                 Website :> ' + color.END)
     time.sleep(0.4)
     print('' + GR + color.BOLD + '                                    Scanning begins...')
