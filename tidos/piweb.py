@@ -32,16 +32,12 @@ T  = '\033[93m' # tan
 M = '\033[1;35;32m' # magenta
 ###############################
 def piweb():
-	print color.YELLOW+color.BOLD+"                                      ___     _              __ _  "
-	time.sleep(0.1)
-	print color.YELLOW+color.BOLD+"                                     | _ \   (_)    _ _     / _` | "
-	time.sleep(0.1)
-	print color.YELLOW+color.BOLD+"                                     |  _/   | |   | ' \    \__, | "
-	time.sleep(0.1)
-	print color.YELLOW+color.BOLD+"                                    _|_|_   _|_|_  |_||_|   |___/  "
-	time.sleep(0.1)
-	print color.YELLOW+color.BOLD+"                                  _| ''' |_|'''''|_|''''|_|''''''| "
-	print color.YELLOW+color.BOLD+"                                   `-0-0-''`-0-0-''`-0-0-''`-0-0-' "
+	print color.YELLOW+color.BOLD+"                                   __                ___         ___  "
+	print color.YELLOW+color.BOLD+"                              .'|=|  |    .'|   .'| |   |   .'|=|_.'  "
+	print color.YELLOW+color.BOLD+"                            .'  | |  |  .'  | .'  |\|   | .'  |___    "
+	print color.YELLOW+color.BOLD+"                            |   |=|.'   |   | |   | |   | |   |`._|=. "
+	print color.YELLOW+color.BOLD+"                            |   |       |   | |   | |  .' `.  |  __|| "
+	print color.YELLOW+color.BOLD+"                            |___|       |___| |___| |.'     `.|=|_.'' "
 	time.sleep(0.1)
 	print ""                                                                  
 	print color.PURPLE+color.BOLD+"                      +======================================================+"
