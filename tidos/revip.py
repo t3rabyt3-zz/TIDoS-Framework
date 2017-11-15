@@ -38,11 +38,11 @@ def revip():
     print color.CYAN+color.BOLD+"                                        \_| \_\___| \_/\___/\_|    "                       
     time.sleep(0.1)   
     print ""                                                                  
-    print color.PURPLE+color.BOLD+"                      +======================================================+"
+    print ""+GR+color.BOLD+"                      +======================================================+"
     time.sleep(0.1)
-    print(''+C+color.BOLD+'                           Enter website address for the Reverse IP LookUP ')
+    print(''+B+color.BOLD+'                           Enter website address for the Reverse IP LookUP ')
     time.sleep(0.1)
-    print(''+P+color.BOLD+'                      +======================================================+')
+    print(''+GR+color.BOLD+'                      +======================================================+')
     time.sleep(0.3)
     h = raw_input(''+ T + color.BOLD + '                                 Website :> ' + color.END)
     time.sleep(0.4)
