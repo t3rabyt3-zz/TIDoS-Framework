@@ -21,14 +21,14 @@ class color:
    WARNING = '\033[93m'
    FAIL = '\033[91m'
 W  = '\033[0m'  # white (normal)
-R  = '\033[31m' # red
-G  = '\033[32m' # green
-O  = '\033[33m' # orange
-B  = '\033[34m' # blue
-P  = '\033[35m' # purple
-C  = '\033[36m' # cyan
-GR = '\033[37m' # gray
-T  = '\033[93m' # tan
+R  = '\033[1;31m' # red
+G  = '\033[1;32m' # green
+O  = '\033[1;33m' # orange
+B  = '\033[1;34m' # blue
+P  = '\033[1;35m' # purple
+C  = '\033[1;36m' # cyan
+GR = '\033[1;37m' # gray
+T  = '\033[1;93m' # tan
 M = '\033[1;35;32m' # magenta
 ###############################
 
@@ -108,10 +108,14 @@ if option == "1":
     print color.BOLD+color.YELLOW+"  [*] Installing..."+color.END
     install = os.system("apt-get update && apt-get install -y build-essential git")
     install2 = os.system("cp -R tidos/ /opt/ && cp tidos.py /opt/tidos && cp runon.sh /opt/tidos && cp runon.sh /usr/bin/tidos && chmod +x /usr/bin/tidos")
+    os.system('apt-get install nmap')
     os.system('apt-get install libncurses5')
     pip.main(["install", "scapy", "requests", "google"])
-    print color.BOLD+color.GREEN+"  \033[1;94m[!] SetUP Successfull ! Execute 'tidos' now to launch the tool [!]"+color.END
+    time.sleep(0.3)
+    print color.BOLD+color.GREEN+"  [!] SetUP Successfull ! Execute 'tidos' now to launch the tool [!]"+color.END
+    time.sleep(0.5)
+    print ''+M+"  [+] Also note that the next time, you want to run this tool, just simply execute 'tidos' in terminal."
     sys.exit()
 else:
-    print ""+M+color.BOLD+"Whoops! Something went wrong! Try again KID..."+color.END
+    print ""+R"  [!] Whoops! Operating system not Compatible..."
     sys.exit()
