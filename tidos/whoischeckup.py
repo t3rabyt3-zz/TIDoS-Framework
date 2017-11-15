@@ -37,11 +37,11 @@ def whoischeckup():
     time.sleep(0.2)
     print color.CYAN+color.BOLD+"                                     \/       \/                   \/ "
     print ""                                                                  
-    print ""+P+color.BOLD+"                      +======================================================+"
+    print ""+B+color.BOLD+"                      +======================================================+"
     time.sleep(0.1)
-    print(''+B+color.BOLD+'                            Enter website address for the WHOIS check up')
+    print(''+GR+color.BOLD+'                            Enter website address for the WHOIS check up')
     time.sleep(0.1)
-    print(''+P+color.BOLD+'                      +======================================================+')
+    print(''+B+color.BOLD+'                      +======================================================+')
     h = raw_input(''+ T + color.BOLD + '                                 Website :> ' + color.END)
     time.sleep(0.4)
     print('' + GR + color.BOLD + '                                    Scanning begins...')
