@@ -42,11 +42,11 @@ def grabhead():
     print color.CYAN+color.BOLD+"                                  //      //     //         //     //       "
     time.sleep(0.1)   
     print ""                                                                  
-    print color.PURPLE+color.BOLD+"                      +======================================================+"
+    print ""+GR+color.BOLD+"                      +======================================================+"
     time.sleep(0.1)
     print(''+C+color.BOLD+'                           Enter website address for grabbing HTTP Headers ')
     time.sleep(0.1)
-    print(''+P+color.BOLD+'                      +======================================================+')
+    print(''+GR+color.BOLD+'                      +======================================================+')
     time.sleep(0.3)
     h = raw_input(''+ T + color.BOLD + '                                 Website :> ' + color.END)
     time.sleep(0.4)
