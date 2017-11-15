@@ -34,11 +34,11 @@ def links():
     print color.CYAN+color.BOLD+"                                      88ood8 88 88  Y8 88  Yb 8bod8P' "
     time.sleep(0.1)   
     print ""                                                                  
-    print color.PURPLE+color.BOLD+"                      +======================================================+"
+    print ""+GR+color.BOLD+"                      +======================================================+"
     time.sleep(0.1)
-    print(''+C+color.BOLD+'                              Enter website address for the Link LookUP')
+    print(''+B+color.BOLD+'                              Enter website address for the Link LookUP')
     time.sleep(0.1)
-    print(''+P+color.BOLD+'                      +======================================================+')
+    print(''+GR+color.BOLD+'                      +======================================================+')
     time.sleep(0.3)
     h = raw_input(''+ T + color.BOLD + '                                 Website :> ' + color.END)
     time.sleep(0.4)
