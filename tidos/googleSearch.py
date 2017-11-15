@@ -33,26 +33,27 @@ M = '\033[1;35;32m' # magenta
 ####################################
 def googleSearch():
 	print ''
-	print ""+B+color.BOLD+"                                 _____   _____ _____  ___  ______  _____  _   _ "
+	print ""+B+color.BOLD+"                          _____   _____ _____  ___  ______  _____  _   _ "
 	time.sleep(0.1)
-	print ""+B+color.BOLD+"                                |  __ \ /  ___|  ___|/ _ \ | ___ \/  __ \| | | |"
+	print ""+G+color.BOLD+"                         |  __ \ /  ___|  ___|/ _ \ | ___ \/  __ \| | | |"
 	time.sleep(0.1)
-	print ""+B+color.BOLD+"                                | |  \/ \ `--.| |__ / /_\ \| |_/ /| /  \/| |_| |"
+	print ""+O+color.BOLD+"                         | |  \/ \ `--.| |__ / /_\ \| |_/ /| /  \/| |_| |"
 	time.sleep(0.1)
-	print ""+B+color.BOLD+"                                | | __   `--. \  __||  _  ||    / | |    |  _  |"
+	print ""+R+color.BOLD+"                         | | __   `--. \  __||  _  ||    / | |    |  _  |"
 	time.sleep(0.1)
-	print ""+B+color.BOLD+"                                | |_\ \ /\__/ / |___| | | || |\ \ | \__/\| | | |"
+	print ""+C+color.BOLD+"                         | |_\ \ /\__/ / |___| | | || |\ \ | \__/\| | | |"
 	time.sleep(0.1)
-	print ""+B+color.BOLD+"                                 \____/ \____/\____/\_| |_/\_| \_| \____/\_| |_/"
+	print ""+B+color.BOLD+"                          \____/ \____/\____/\_| |_/\_| \_| \____/\_| |_/"
 	print ''
 	time.sleep(0.3)
-        print color.PURPLE+color.BOLD+"                      +======================================================+"
+        print ''+GR+color.BOLD+"                      +======================================================+"
         time.sleep(0.1)
-        print(''+C+color.BOLD+'                           Enter a query or website address for the SEARCH ')
+        print(''+B+color.BOLD+'                         Enter a DORK query or website address for the SEARCH ')
         time.sleep(0.1)
-        print(''+P+color.BOLD+'                      +======================================================+')
+        print(''+GR+color.BOLD+'                      +======================================================+')
 	lol = raw_input("" + T + color.BOLD + "                                      QUERY :> " + color.END)
-        print(""+ GR + color.BOLD + "                                 [~] Result: ")
-	print(""+ M + color.BOLD + "                    Below are the list of websites with info on " +lol+ "" +color.END)
+	time.sleep(0.8)
+        print(""+ GR + color.BOLD + "                           [~] Results Obtained: ")
+	print(""+ M + color.BOLD + "                    Below are the list of websites with info on '" +lol+ "'" +color.END)
 	for url in search(lol, tld='com', lang='es', stop=50):
 		print(""+O+color.BOLD+"                    Info Sites Found :> "+W+"" + url)
