@@ -1385,6 +1385,6 @@ def nmapmain():
 	else:
 		print''+R+'                       [!] Python ran mad !!!'
     except KeyboardInterrupt:
-	    print''+R+'\n                       [!] Use "[16] back" to get back to the TIDoS shell !!!'
+	    print''+R+'\n                       [!] Scan Aborted by User !!!'
    nmap()
 
