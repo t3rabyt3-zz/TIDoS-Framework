@@ -36,13 +36,13 @@ def subnet():
     print ""                                                                  
     print ""+GR+color.BOLD+"                      +======================================================+"
     time.sleep(0.1)
-    print(''+B+color.BOLD+'                            Enter website address for calculating SubNet')
+    print(''+B+color.BOLD+'                            Enter website address for SubNet Enumeration')
     time.sleep(0.1)
     print(''+GR+color.BOLD+'                      +======================================================+')
     time.sleep(0.3)
     h = raw_input(''+ T + color.BOLD + '                                 Website :> ' + color.END)
     time.sleep(0.4)
-    print('' + GR + color.BOLD + '                                    Lookup begins...')
+    print('' + GR + color.BOLD + '                                    Enumeration begins...')
     time.sleep(0.2)
     print(""+ GR + color.BOLD + "                                [~] Result: "+color.YELLOW+color.BOLD+"════════════════╗" + color.END)
     print(""+ color.YELLOW + color.BOLD + "     ╔══════════════════════════════════════════════════════╝")            
