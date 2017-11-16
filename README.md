@@ -7,7 +7,7 @@ A list of features TIDoS-Framework has to offer:
 
 - [x] Has capabilities of effective Reconnaissance about a website with just its domain.
 - [x] FootPrinting solutions include Reverse-DNS, Reverse-IP LookUp of the website.
-- [x] Can detect serious vulerabilities in websites like clickjackability, zone transfer, SQLi, XSS, etc...
+- [x] Can detect serious vulnerabilities in websites like clickjackability, zone transfer, SQLi, XSS, etc...
 - [x] Can detect if you are being tricked into a honeypot.
 - [x] Can check the connectivity strength of your website by flooding it at the UDP level.
 - [x] Its written mostly using pre-defined APIs so results are pretty accurate.
