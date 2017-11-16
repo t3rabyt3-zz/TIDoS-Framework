@@ -36,11 +36,11 @@ def dnschk():
     print color.CYAN+color.BOLD+"                             `-------' `--'  `--'`-----'  `-----'`--'`--' "
     time.sleep(0.1)   
     print ""                                                                  
-    print ''+GR+color.BOLD+"                      +======================================================+"
+    print ''+B+color.BOLD+"                      +======================================================+"
     time.sleep(0.1)
-    print(''+B+color.BOLD+'                                 Enter website address for DNS LookUP')
+    print(''+GR+color.BOLD+'                                 Enter website address for DNS LookUP')
     time.sleep(0.1)
-    print(''+GR+color.BOLD+'                      +======================================================+')
+    print(''+B+color.BOLD+'                      +======================================================+')
     time.sleep(0.3)
     h = raw_input(''+ T + color.BOLD + '                                 Website :> ' + color.END)
     time.sleep(0.4)
