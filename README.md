@@ -1,7 +1,7 @@
 <p align="middle"><img src='https://i.imgur.com/jqIT7UB.png' /></p>                    
 
-# TIDoS-Framework
-TIDoS-Framework is a python toolkit for comprehensive penetration testing of websites. 
+# TIDoS-Framework v2.5
+TIDoS-Framework is a python toolkit for comprehensive penetration testing of websites. It is presently suited for reconnaissance purposes.
 
 A list of features TIDoS-Framework has to offer:
 
@@ -40,10 +40,14 @@ You can enter <b>help</b> in TIDoS's target prompt for keyword usages.
 
 Examples :-
 - "gsearch" for A Google Search of a dork or a query.
+
 <img src='https://i.imgur.com/lNGMsTW.jpg?' />
 - "nmap" for a comprehensive NMap scan of the website.
+
 <img src='https://i.imgur.com/LToVDCK.jpg' />
+
 - "fl00d" for Checking the connectivity strength of the website by flooding at the UDP Level.
+
 <img src='https://i.imgur.com/5K4T6qs.jpg' />
 
 Check out other modules... : )
