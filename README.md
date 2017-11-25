@@ -1,6 +1,6 @@
 <p align="middle"><img src='https://i.imgur.com/jqIT7UB.png' /></p>                    
 
-# TIDoS-Framework v2.5
+# TIDoS-Framework v2.0
 TIDoS-Framework is a python toolkit for comprehensive penetration testing of websites. It is presently suited for reconnaissance purposes.
 
 A list of features TIDoS-Framework has to offer:
