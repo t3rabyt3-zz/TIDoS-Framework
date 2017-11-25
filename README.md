@@ -12,7 +12,7 @@ A list of features TIDoS-Framework has to offer:
 - [x] Can check the connectivity strength of your website by flooding it at the UDP level.
 - [x] Its written mostly using pre-defined APIs so results are pretty accurate.
 
-<img src='https://i.imgur.com/rJR5ciH.jpg' />
+<img src='https://i.imgur.com/uWWCfw2.png' />
 
 ### Installing TIDoS-Framework :-
 Use the following command to clone it
