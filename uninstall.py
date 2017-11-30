@@ -124,6 +124,6 @@ elif main == "yes":
          sys.exit()
 else:
     print ''
-    print ""+R+color.BOLD+"                                [!] ERROR [!]  "
+    print ""+R+color.BOLD+"                            [!] ERROR [!] You got fucked up! "
     print (''+T+color.BOLD+'		Your machine ran into ERRORS !!! Hence contact DarK ErroR team :)  ')
     sys.exit()
