@@ -12,7 +12,7 @@ from googleSearch import *
 from UDoS import *
 from info import *
 
-VersionNum = "1.2" ####### Main for all
+VersionNum = "1.0.0" ####### Main for all
 
 try:
     import scapy
@@ -107,7 +107,7 @@ def banner1():
 	print color.BLUE + "                             +=============================================+"
 	print color.CYAN + "                             | +-----------------------------------------+ |"
 	print color.DARKCYAN + "                             | |   Author: The-Infected-Drake (@_tID)    | |".format(VersionNum)
-	print color.WARNING + "                             | |               Version: {}               | |" 
+	print color.WARNING + "                             | |               Version: 1.0              | |" 
 	print color.PURPLE + "                             | |      Team  : Dark Error Cyber Team      | |"
 	print color.BLUE + "                             | |         Website Pentesting Tool         | |"
 	print color.YELLOW + "                             | |         Have FUN, stay LEGAL !!!        | |"
@@ -120,7 +120,7 @@ print color.CYAN + "                             | +----------------------------
 time.sleep(0.5)
 print color.DARKCYAN + "                             | |   Author: The-Infected-Drake (@_tID)    | |"
 time.sleep(0.5)
-print color.WARNING + "                             | |               Version: {}              | |".format(VersionNum)
+print color.WARNING + "                             | |               Version: 1.0              | |"
 time.sleep(0.5)
 print color.PURPLE + "                             | |      Team  : Dark Error Cyber Team      | |"
 time.sleep(0.5)
