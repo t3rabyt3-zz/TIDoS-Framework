@@ -1,6 +1,6 @@
 <p align="middle"><img src='https://i.imgur.com/jqIT7UB.png' /></p>                    
 
-# TIDoS-Framework v2.5
+# TIDoS-Framework v2.0
 TIDoS-Framework is a python toolkit for comprehensive penetration testing of websites. It is presently suited for reconnaissance purposes.
 
 A list of features TIDoS-Framework has to offer:
@@ -12,18 +12,18 @@ A list of features TIDoS-Framework has to offer:
 - [x] Can check the connectivity strength of your website by flooding it at the UDP level.
 - [x] Its written mostly using pre-defined APIs so results are pretty accurate.
 
-<img src='https://i.imgur.com/rJR5ciH.jpg' />
+<img src='https://i.imgur.com/uWWCfw2.png' />
 
 ### Installing TIDoS-Framework :-
 Use the following command to clone it
 ```
 git clone https://github.com/the-Infected-Drake/TIDoS-Framework.git
 ```
-After downloading, navigate to 'TIDoS-Framework' directory with the following command
+After downloading, navigate to 'TIDoS-Framework' directory 
 ```
 cd TIDoS-Framework
 ```
-Now install the required dependencies with the following command
+Now install the required dependencies with the setup.py file
 ```
 python setup.py
 ```
@@ -51,4 +51,4 @@ Examples :-
 
 <img src='https://i.imgur.com/5K4T6qs.jpg' />
 
-Check out other modules... : )
+Check out other modules too... : )
