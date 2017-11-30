@@ -7,11 +7,25 @@ from urllib2 import urlopen
 from time import sleep
 from subprocess import call
 sys.path.append('tidos/')
+from clickjack import *
 from banner import *
 from googleSearch import *
 from UDoS import *
 from info import *
+from geoIP import *
+from whoischeckup import *
+from subdom import *
+from subnet import *
+from dnschk import *
 from piweb import *
+from nmap import *
+from revip import *
+from revdns import *
+from links import *
+from grabhead import *
+from adminpanel import *
+from zone import *
+from honeypot import *
 
 ###############################
 class color:
@@ -102,7 +116,7 @@ def banner1():
 	print color.DARKCYAN + color.BOLD+"                             | |   Author: The-Infected-Drake (@_tID)    | |"
 	print color.GREEN + color.BOLD+"                             | |               Version: 2.5              | |"
 	print color.BLUE + color.BOLD+"                             | |         Website Pentesting Tool         | |"
-	print color.RED + color.BOLD+"                             | |            1 Tool -> 9 choices         | |"
+	print color.RED + color.BOLD+"                             | |            1 Tool -> 23 choices         | |"
 	print color.YELLOW + color.BOLD+"                             | |       Test the PEN, stay LEGAL !!!      | |"
 	print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
 	print color.BLUE + color.BOLD+"                             +=============================================+" + color.END
@@ -117,7 +131,7 @@ print color.WARNING + color.BOLD+"                             | |              
 time.sleep(0.5)
 print color.GREEN + color.BOLD+"                             | |         Website Pentesting Tool         | |"
 time.sleep(0.5)
-print ""+ GR + color.BOLD+"                             | |            1 Tool -> 9 choices         | |"
+print ""+ GR + color.BOLD+"                             | |            1 Tool -> 23 choices         | |"
 time.sleep(0.5)
 print ""+R + color.BOLD+"                             | |       Test the PEN, stay LEGAL !!!      | |"
 time.sleep(0.5)
@@ -136,6 +150,55 @@ def tidosmain():
 		print ""+G+color.BOLD+"                    [*] Info collected... Preparing results..."+color.END
 		time.sleep(1)         
                 info()
+	    elif main == "geoip":
+		time.sleep(0.5)
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		geoIP()
+	    elif main == "subdom":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		subdom()
+	    elif main == "grabhead":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		grabhead()
+	    elif main == "subnet":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		subnet()
+	    elif main == "dnschk":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		dnschk()
+	    elif main == "nmap":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		nmapmain()
+	    elif main == "pglink":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		links()
+	    elif main == "revip":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		revip()
             elif main == "help":
                 print ""+O+color.BOLD+"                      +================================================================+"
                 print ""+C+color.BOLD+"                                                  ╦ ╦╔═╗╦  ╔═╗"
@@ -153,27 +216,91 @@ def tidosmain():
                 time.sleep(0.05)
                 print ""+C+color.BOLD+"                         [5] piweb "+GR+"- Pings a website"
 		time.sleep(0.05)
-		print ''+O+volor.BOLD+'                         [6] gsearch'+GR+' Google about a website'
+		print ""+M+color.BOLD+"                         [6] grabhead"+GR+" - Grabs the HTTP Headers of a Website"
 		time.sleep(0.05)
-                print ""+C+color.BOLD+"                         [7] fl00d"+GR+" - Flood a website at the UDP level dead"
+		print ""+T+color.BOLD+"                         [7] whois"+GR+" - Get WHOIS info of a website"
+		time.sleep(0.05)
+		print ""+P+color.BOLD+"                         [8] revip"+GR+" - Do a Reverse IP LookUP of a Website"
+		time.sleep(0.05)
+		print ""+M+color.BOLD+"                         [9] revdns"+GR+" - Does a Reverse DNS LookUP of Website"
+		time.sleep(0.05)
+		print ""+R+color.BOLD+"                         [10] geoip"+GR+" - Does a GeoIP Lookup of the website"
+		time.sleep(0.05)
+		print ""+C+color.BOLD+"                         [11] subdom"+GR+" - Launches the Sub-Domain scanner"
+		time.sleep(0.05)
+		print ""+G+color.BOLD+"                         [12] subnet"+GR+" - Does a SubNet Scan of a Website"
+		time.sleep(0.05)
+		print ""+P+color.BOLD+"                         [13] dnschk"+GR+" - Starts up a DNS LookUP of a Website"
+		time.sleep(0.05)
+                print ""+B+color.BOLD+"                         [14] gsearch"+GR+" - Search Google for a DORK or a Query"
                 time.sleep(0.05)
-                print ""+R+color.BOLD+"                         [8] exit"+GR+" - Quits this tool "
+		print ""+O+color.BOLD+"                         [15] pglink"+GR+" - Dumps a list of the links with Website"
+		time.sleep(0.05)
+		print ""+C+color.BOLD+"                         [16] adminpnl"+GR+" - Hunt for the Admin Panel of a Website"
+		time.sleep(0.05)
+		print ""+B+color.BOLD+"                         [17] clikjak"+GR+" - Test a website for clickjackabilities"
+		time.sleep(0.05)
+		print ""+O+color.BOLD+"                         [18] honeypot"+GR+" - Test whether a IP is a honeypot"
+		time.sleep(0.05)
+		print ""+R+color.BOLD+"                         [19] zonetrans"+GR+" - Test a Web for ZoneTransfer Vulerability"
+		time.sleep(0.05)
+		print ""+G+color.BOLD+"                         [20] nmap"+GR+" - For Advanced Reconnaissance on a Website" 
+		time.sleep(0.05)
+                print ""+C+color.BOLD+"                         [21] fl00d"+GR+" - Flood a website at the UDP level dead"
                 time.sleep(0.05)
-                print ""+P+color.BOLD+"                         [9] contact"+GR+" - Contact me for queries :)"
+                print ""+R+color.BOLD+"                         [22] exit"+GR+" - Quits this tool "
+                time.sleep(0.05)
+                print ""+P+color.BOLD+"                         [23] contact"+GR+" - Contact me for queries :)"
                 time.sleep(0.05)
                 print ""+O+color.BOLD+"                      +=================================================================+"
+            elif main == "zonetrans":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+                zone()
+            elif main == "honeypot":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+                honeypot()
+            elif main == "adminpnl":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+                adminpanel()
+            elif main == "clikjak":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+                clickjack()
             elif main == "fl00d":
 		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
                 UDoS()
+	    elif main == "whois":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		whoischeckup()
             elif main == "gsearch":
 		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
 		time.sleep(0.3)
 		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
 		time.sleep(1)
                 googleSearch()
+	    elif main == "revdns":
+		print ""+P+color.BOLD+"                    [!] Preparing scripts about the info you requested..."+color.END
+		time.sleep(0.3)
+		print ""+G+color.BOLD+"                    [*] Launching module..."+color.END
+		time.sleep(1)
+		revdns()
             elif main == "contact":
                 print(''+O+color.BOLD+'                 +=====================================================================+' + color.END)
                 print(''+T+color.BOLD+'                                      ╔═╗╔═╗╔╗╔╔╦╗╔═╗╔═╗╔╦╗  ╔╦╗╔═╗')
