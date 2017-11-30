@@ -42,6 +42,7 @@ Examples :-
 - "gsearch" for A Google Search of a dork or a query.
 
 <img src='https://i.imgur.com/lNGMsTW.jpg?' />
+
 - "nmap" for a comprehensive NMap scan of the website.
 
 <img src='https://i.imgur.com/LToVDCK.jpg' />
