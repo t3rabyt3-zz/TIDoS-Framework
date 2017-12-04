@@ -114,7 +114,7 @@ def banner1():
 	print color.BLUE + color.BOLD+"                             +=============================================+"
 	print color.CYAN + color.BOLD+"                             | +-----------------------------------------+ |"
 	print color.DARKCYAN + color.BOLD+"                             | |   Author: The-Infected-Drake (@_tID)    | |"
-	print color.GREEN + color.BOLD+"                             | |               Version: 2.5              | |"
+	print color.GREEN + color.BOLD+"                             | |               Version: 2.0              | |"
 	print color.BLUE + color.BOLD+"                             | |         Website Pentesting Tool         | |"
 	print color.RED + color.BOLD+"                             | |            1 Tool -> 23 choices         | |"
 	print color.YELLOW + color.BOLD+"                             | |       Test the PEN, stay LEGAL !!!      | |"
@@ -127,7 +127,7 @@ print color.CYAN + color.BOLD+"                             | +-----------------
 time.sleep(0.5)
 print color.DARKCYAN + color.BOLD+"                             | |   Author: The-Infected-Drake (@_tID)    | |"
 time.sleep(0.5)
-print color.WARNING + color.BOLD+"                             | |               Version: 2.5              | |"
+print color.WARNING + color.BOLD+"                             | |               Version: 2.0              | |"
 time.sleep(0.5)
 print color.GREEN + color.BOLD+"                             | |         Website Pentesting Tool         | |"
 time.sleep(0.5)
