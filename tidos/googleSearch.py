@@ -1,6 +1,6 @@
 import time
-import sys, platform
-from google import search
+import google
+from google import *
 from time import sleep
 ####################################
 class color:
