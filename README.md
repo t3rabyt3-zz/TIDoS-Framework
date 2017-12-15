@@ -1,6 +1,7 @@
 <p align="middle"><img src='https://i.imgur.com/jqIT7UB.png' /></p>                    
 
 # TIDoS-Framework v2.0
+
 TIDoS-Framework is a python toolkit for comprehensive penetration testing of websites. It is presently suited for reconnaissance purposes.
 
 A list of features TIDoS-Framework has to offer:
@@ -11,6 +12,7 @@ A list of features TIDoS-Framework has to offer:
 - [x] Can detect if you are being tricked into a honeypot.
 - [x] Can check the connectivity strength of your website by flooding it at the UDP level.
 - [x] Its written mostly using pre-defined APIs so results are pretty accurate.
+- [x] This project modules are still in beta phase. Work is still on, I will update everything once everything gets over...
 
 <img src='https://i.imgur.com/uWWCfw2.png' />
 
@@ -52,3 +54,27 @@ Examples :-
 <img src='https://i.imgur.com/5K4T6qs.jpg' />
 
 Check out other modules too... : )
+
+### Changelog :-
+
+    v1.0.0
+    - Initial release.
+    - Contained 5 modules with basic choices.
+    
+    v1.1.0
+    - Fixed 2 major bugs in the code.
+    - Removed the webex module and added the piweb module.
+    
+    v2.0.0
+    - 13 new modules added.
+    - Project suited for reconnaissance purposes.
+    
+    v2.5.0 (beta)
+    - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
+    - Fuzzing websites pages with different payloads as well as WAF analysis to be added.
+    - New modules including scanning for XSS and SQLi vulnerabilities within websites to be added.
+    
+    
+
+    C
+
