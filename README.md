@@ -58,23 +58,35 @@ Check out other modules too... : )
 ### Changelog :-
 
     v1.0.0
+    
     - Initial release.
+    
     - Contained 5 modules with basic choices.
     
+
     v1.1.0
+    
     - Fixed 2 major bugs in the code.
+    
     - Removed the webex module and added the piweb module.
     
     v2.0.0
+    
     - 13 new modules added.
+    
     - Project suited for reconnaissance purposes.
+    
     
     v2.5.0 (beta)
+    
     - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
+    
     - Fuzzing websites pages with different payloads as well as WAF analysis to be added.
+    
     - New modules including scanning for XSS and SQLi vulnerabilities within websites to be added.
+    
     
     
 
-    C
+
 
