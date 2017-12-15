@@ -53,7 +53,7 @@ Examples :-
 
 <img src='https://i.imgur.com/5K4T6qs.jpg' />
 
-Check out other modules too... : )
+Check out other modules too... 
 
 ### Changelog :-
 
@@ -84,9 +84,12 @@ Check out other modules too... : )
     - Fuzzing websites pages with different payloads as well as WAF analysis to be added.
     
     - New modules including scanning for XSS and SQLi vulnerabilities within websites to be added.
-    
     
-    
+### Contributors :-
+
+   Its me only amongst the contributors to this project. It you want to work with me, just ping me up and we both can get started... ; )
+
+
 
 
 
