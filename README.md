@@ -16,7 +16,7 @@ A list of features TIDoS-Framework has to offer:
 
 <img src='https://i.imgur.com/uWWCfw2.png' />
 
-### Installing TIDoS-Framework :-
+### ➣ Installing TIDoS-Framework :-
 Use the following command to clone it
 ```
 git clone https://github.com/the-Infected-Drake/TIDoS-Framework.git
@@ -55,7 +55,7 @@ Examples :-
 
 Check out other modules too... 
 
-### Changelog :-
+### ➣ Changelog :-
 
     v1.0.0
     
@@ -85,11 +85,11 @@ Check out other modules too...
     
     - New modules including scanning for XSS and SQLi vulnerabilities within websites to be added.
     
-### Contributors :-
+### ➣ Contributors :-
 
    Its just me amongst the contributors to this project. It you want to work with me, just ping me up and we both can get started... ; )
 
-### ToDos :-
+### ➣ ToDos :-
 
    Work for a more comprehensive frameowrk for Cross Site Scripting and SQLi exploitation. Pull requests? They are warmly welcome here. Thanks for your attention.
 
