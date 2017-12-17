@@ -87,9 +87,11 @@ Check out other modules too...
     
 ### Contributors :-
 
-   Its me only amongst the contributors to this project. It you want to work with me, just ping me up and we both can get started... ; )
+   Its just me amongst the contributors to this project. It you want to work with me, just ping me up and we both can get started... ; )
 
+### ToDos :-
 
+   Work for a more comprehensive frameowrk for Cross Site Scripting and SQLi exploitation. Pull requests? They are warmly welcome here. Thanks for your attention.
 
 
 
