@@ -57,27 +57,25 @@ Check out other modules too...
 
 ### ➣ Changelog :-
 
-    v1.0.0
+⇒ v1.0.0
     
     - Initial release.
     
     - Contained 5 modules with basic choices.
     
-
-    v1.1.0
+⇒ v1.1.0
     
     - Fixed 2 major bugs in the code.
     
     - Removed the webex module and added the piweb module.
     
-    v2.0.0
+⇒ v2.0.0
     
     - 13 new modules added.
     
     - Project suited for reconnaissance purposes.
     
-    
-    v2.5.0 (beta)
+⇒ v2.5.0 (beta)
     
     - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
     
