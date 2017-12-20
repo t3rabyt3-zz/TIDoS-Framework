@@ -62,8 +62,7 @@ Check out other modules too...
     - Initial release.
     
     - Contained 5 modules with basic choices.
-    
-    
+
 ⇒ v1.1.0
     
     - Fixed 2 major bugs in the code.
