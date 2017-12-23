@@ -75,7 +75,7 @@ Check out other modules too...
     
     - Project suited for reconnaissance purposes.
     
-⇒ v2.5.0 (beta)
+⇒ v2.5.0 (alpha)
     
     - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
     
@@ -85,7 +85,7 @@ Check out other modules too...
     
 ### ➣ Contributors :-
 
-   Its just me amongst the contributors to this project. It you want to work with me, just ping me up and we both can get started... ; )
+   Its just me amongst the contributors to this project. It you want to work with me, just ping me up and we both can get started... 
 
 ### ➣ ToDos :-
 
