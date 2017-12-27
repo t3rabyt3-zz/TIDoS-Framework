@@ -33,6 +33,7 @@ M = '\033[1;35;32m' # magenta
 ###############################
 
 os.system("clear")
+
 time.sleep(1)
 print ""+B+color.BOLD+"    [!] Gathering info..."+color.END
 time.sleep(2)
@@ -101,7 +102,10 @@ if option == "1":
     time.sleep(0.2)
     print color.BOLD+color.YELLOW+"  [*] Loading..."+color.END
     os.system('apt-get install python-pip')
-    import pip
+    try:
+        import pip
+    except:
+        os.system('easy_install pip')
     os.system('pip install google')
     os.system('pip install requests')
     print color.BOLD+color.YELLOW+"  [*] Installing..."+color.END
