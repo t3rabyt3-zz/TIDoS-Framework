@@ -75,7 +75,9 @@ Check out other modules too...
     
     - Project suited for reconnaissance purposes.
     
-⇒ v2.5.0 (alpha)
+⇒ v2.1.0 (alpha)
+
+    - Complete change of interface for easy interaction with the tool.
     
     - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
     
