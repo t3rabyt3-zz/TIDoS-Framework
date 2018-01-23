@@ -77,7 +77,7 @@ Check out other modules too...
     
 ⇒ v2.1.0 (alpha)
 
-    - Complete change of interface for easy interaction with the tool.
+   - Complete change of interface for easy interaction with the tool.
     
     - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
     
