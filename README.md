@@ -79,11 +79,11 @@ Check out other modules too...
 
    - Complete change of interface for easy interaction with the tool.
     
-    - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
+   - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
     
-    - Fuzzing websites pages with different payloads as well as WAF analysis to be added.
+   - Fuzzing websites pages with different payloads as well as WAF analysis to be added.
     
-    - New modules including scanning for XSS and SQLi vulnerabilities within websites to be added.
+   - New modules including scanning for XSS and SQLi vulnerabilities within websites to be added.
     
 ### ➣ Contributors :-
 
@@ -91,4 +91,4 @@ Check out other modules too...
 
 ### ➣ ToDos :-
 
-   Work for a more comprehensive frameowrk for Cross Site Scripting and SQLi exploitation. Pull requests? They are warmly welcome here. Thanks for your attention.
+   Work for a more comprehensive framework for Cross Site Scripting and SQLi exploitation. Pull requests? They are warmly welcome here. Thanks for your attention.
