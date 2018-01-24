@@ -83,11 +83,11 @@ Check out other modules too...
    
    - Tool section divided into 3 sections, Reconnaissance, Scanning, Exploitation.
     
-   - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
+   - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
     
-   - Fuzzing websites pages with different payloads as well as WAF analysis to be added.
+   - Fuzzing websites pages with different payloads as well as WAF analysis to be added.
     
-   - New modules including scanning for XSS and SQLi vulnerabilities within websites added.
+   - New modules including scanning for XSS and SQLi vulnerabilities within websites added.
    
    - To be released shortly.
     
