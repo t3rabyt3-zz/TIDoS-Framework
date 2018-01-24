@@ -75,15 +75,21 @@ Check out other modules too...
     
     - Project suited for reconnaissance purposes.
     
-⇒ v2.1.0 (alpha)
+⇒ v2.1.0 (beta)
+
+   - 21 new modules added.
 
    - Complete change of interface for easy interaction with the tool.
+   
+   - Tool section divided into 3 sections, Reconnaissance, Scanning, Exploitation.
     
    - Deep crawlers along with CMS detection, Cloudflare bypass to be added.
     
    - Fuzzing websites pages with different payloads as well as WAF analysis to be added.
     
-   - New modules including scanning for XSS and SQLi vulnerabilities within websites to be added.
+   - New modules including scanning for XSS and SQLi vulnerabilities within websites added.
+   
+   - To be released shortly.
     
 ### ➣ Contributors :-
 
