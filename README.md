@@ -97,4 +97,6 @@ Check out other modules too...
 
 ### ➣ ToDos :-
 
-   Work for a more comprehensive framework for Cross Site Scripting and SQLi exploitation. Pull requests? They are warmly welcome here. Thanks for your attention.
+   Work for a more comprehensive framework for Cross Site Scripting and SQLi exploitation. Pull requests? They are warmly welcome here. Bugs, Errors in Code? Submit a Pull Request or raise up an Issue!
+   
+   Thanks for your attention.
