@@ -2,6 +2,8 @@
 #!/usr/bin/env python
 import urllib, urllib2, requests, time
 from time import sleep
+
+###############################
 class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
@@ -13,6 +15,8 @@ class color:
    BOLD = '\033[1m'
    UNDERLINE = '\033[4m'
    END = '\033[0m'
+#################################
+	
 W  = '\033[0m'  # white (normal)
 R  = '\033[31m' # red
 G  = '\033[32m' # green
