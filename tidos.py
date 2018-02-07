@@ -1,6 +1,9 @@
 # coding: utf-8
 #!/usr/bin/env python
 
+#Main Script of TIDoS Frameowrk
+#https://github.com/the-Infected-Drake/TIDoS-Framework
+
 import sys, platform, subprocess, time, os
 
 from urllib2 import urlopen
