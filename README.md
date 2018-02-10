@@ -89,11 +89,7 @@ Check out other modules too...
     
    - New modules including scanning for XSS and SQLi vulnerabilities within websites added.
    
-   - To be released shortly.
-    
-### ➣ Contributors :-
-
-   Its just me amongst the contributors to this project. It you want to work with me, just ping me up and we both can get started... 
+   - To be released shortly. 
 
 ### ➣ ToDos :-
 
