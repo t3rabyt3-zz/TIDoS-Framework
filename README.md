@@ -1,4 +1,4 @@
-<p align="middle"><img src='https://i.imgur.com/jqIT7UB.png' /></p>                    
+<p align="middle"><img src='https://i.imgur.com/QAbaVdU.png' /></p>                    
 
 # TIDoS-Framework v2.0.0
 
