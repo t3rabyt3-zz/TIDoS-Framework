@@ -1,0 +1,28 @@
+
+ T H E   T I D O S   F R A M E W O R K  V2.1.0
+============================
+
+ Installation manual
+=====================
+
+    This tool is pretty much user-friendly and easy to use. Simple follow the steps below. 
+
+1. Make a git clone of this repository on your desktop. (Remember this script will only work on Linux Distros)
+	<git clone https://github.com/the-Infected-Drake/TIDoS-Framework.git>
+
+2.  Run the setup.py script.
+	<./install>
+
+3. It will install the dependencies by itself.
+
+4. After the installation has completed, simply run the command <tidos>.
+
+5. Type <yes> to get the approval.
+
+6. The tool will fire up and then type in <help> to get a list of tasks which you can perform with the existing modules.
+
+7. The next time you want to run this tool, just simply run tidos and the tool will automatically start by itself.
+
+8. Use the uninstall script for removing the program completely from your system (REMEMBER - Only deleting the files off won't work)
+ 
+    Any suggestions? Ping me up here <theinfecteddrake@gmail.com> or knock me via a pull request.
