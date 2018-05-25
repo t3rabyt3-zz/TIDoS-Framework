@@ -12,6 +12,7 @@ import sys
 import os
 import time
 import subprocess
+sys.path.append('files/')
 from sys import stdout
 from colors import *
 
