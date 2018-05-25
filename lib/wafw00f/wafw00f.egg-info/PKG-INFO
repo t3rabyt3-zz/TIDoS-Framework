@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: wafw00f
+Version: 0.9.4
+Summary: WAFW00F identifies and fingerprints Web Application Firewall (WAF) products.
+Home-page: https://github.com/sandrogauci/wafw00f
+Author: sandrogauci
+Author-email: sandro@enablesecurity.com
+License: BSD License
+Description: UNKNOWN
+Keywords: waf firewall detector fingerprint
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Internet
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Networking :: Firewalls
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
